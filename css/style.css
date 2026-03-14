@@ -1,50 +1,50 @@
 body {
-    background-color: #E14B3B;
-    color: #3E3E3E;
-    font-family: Arial;
-    font-size: 1rem;
+background-color: #E14B3B;
+color: #3E3E3E;
+font-family: Arial;
+font-size: 1rem;
 }
 
 header, footer {
-    background-color: #E14B3B;
-    color: #F3F3F0;
+background-color: #E14B3B;
+color: #F3F3F0;
 }
 
 h1, h2 {
-    background-color: #F3F3F0;
-    color: #3E3E3E;
-    font-size: 1.8rem;
+background-color: #F3F3F0;
+color: #3E3E3E;
+font-size: 1.8rem;
 }
 
 p {
-    background-color: #F3F3F0;
-    color: #3E3E3E;
-    font-size: 1rem;
+background-color: #F3F3F0;
+color: #3E3E3E;
+font-size: 1rem;
 }
 
 nav {
-    background-color: #F3F3F0;
-    color: #3E3E3E;
+background-color: #F3F3F0;
+color: #3E3E3E;
 }
 
 nav a {
-    color: #3E3E3E;
-    font-size: 1rem;
+color: #3E3E3E;
+font-size: 1rem;
 }
 
 figure {
-    background-color: #F3F3F0;
+background-color: #F3F3F0;
 }
 
 figcaption {
-    background-color: #F3F3F0;
-    color: #3E3E3E;
-    font-size: 0.95rem;
+background-color: #F3F3F0;
+color: #3E3E3E;
+font-size: 0.95rem;
 }
 
 main img {
-    width: 60%;
-    height: auto;
+width: 60%;
+height: auto;
 }
 
 /*
