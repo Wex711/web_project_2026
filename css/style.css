@@ -1,19 +1,53 @@
-html {
-    background-color: #E14B3B;  
-    font-family: sans-serif;
+body {
+    background-color: #E14B3B;
+    color: #3E3E3E;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
 }
 
-main, section, p, h1, h2, nav {
-    background-color: #F3F3F0;   
-    color: #3E3E3E;             
+header, footer {
+    background-color: #E14B3B;
+    color: #F3F3F0;
 }
 
-a {
-    color: blue;
-    text-decoration: none;
+h1, h2 {
+    background-color: #F3F3F0;
+    color: #3E3E3E;
+    font-size: 1.8rem;
+}
+
+p {
+    background-color: #F3F3F0;
+    color: #3E3E3E;
+    font-size: 1rem;
+}
+
+nav {
+    background-color: #F3F3F0;
+    color: #3E3E3E;
+}
+
+nav a {
+    color: #3E3E3E;
+    font-size: 1rem;
+}
+
+figure {
+    background-color: #F3F3F0;
+}
+
+figcaption {
+    background-color: #F3F3F0;
+    color: #3E3E3E;
+    font-size: 0.95rem;
+}
+
+main img {
+    width: 60%;
+    height: auto;
 }
 
 /*
-#3E3E3E - black
-#E14B3B - dex :read-only
+#3E3E3E - dex black
+#E14B3B - dex red
 #F3F3F0 - dex white
