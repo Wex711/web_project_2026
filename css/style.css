@@ -1,11 +1,23 @@
-* {
+main {
 background-color: #E14B3B;
 color: #3E3E3E;
 font-family: Arial;
 font-size: 1rem;
 }
 
-p, p a, ul, ol, li, h1, h2, figcaption, header, footer, em, strong, table, tr, th, td {
+h1 {
+background-color: #F3F3F0;
+color: #3E3E3E;
+font-size: 2em;
+}
+
+h2 {
+background-color: #F3F3F0;
+color: #3E3E3E;
+font-size: 1.5em;
+}
+
+p, p a, ul, ol, li, figcaption, header, footer, em, strong, table, tr, th, td {
 background-color: #F3F3F0;
 color: #3E3E3E;
 font-size: 1rem;    
@@ -22,7 +34,7 @@ background-color: #F3F3F0;
 }
 
 main img {
-width: 60%;
+width: 100%;
 height: auto;
 }
 
