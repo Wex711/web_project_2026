@@ -70,7 +70,13 @@ color: #3E3E3E;
 font-size: 1rem;
 }
 
-table {
+figcaption, header, footer, em, strong, table {
+background-color: #F3F3F0;
+color: #3E3E3E;
+font-size: 1rem;
+}
+
+tr, th, td {
 background-color: white;
 color: #3E3E3E;
 font-size: 1rem;
