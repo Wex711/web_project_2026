@@ -40,10 +40,14 @@ width: 60%;
 height: auto;
 }
 
-h1, h2, p, figure, nav, nav a {
+h1, h2, p, figure, nav, nav a, footer {
     border: 1px solid black;
 }
 
+h1, h2 {
+    width: 90%;
+    margin: auto;
+}
 
 
 
