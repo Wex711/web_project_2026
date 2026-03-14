@@ -22,7 +22,7 @@ color: #3E3E3E;
 font-size: 1rem;
 }
 
-nav a, nav {
+nav a, nav, p a {
 color: blue;
 font-size: 1rem;
 }
