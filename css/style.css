@@ -36,9 +36,32 @@ background-color: white;
 }
 
 main img {
-width: 100%;
+width: 60%;
 height: auto;
 }
+
+main {
+    border: 1px solid black;
+    margin:2em
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 #3E3E3E - dex black
