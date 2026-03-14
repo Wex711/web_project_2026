@@ -6,12 +6,21 @@ selector is an html element, property is an aspect,
 value is what that aspect is. For example, selector
 equals p, property equals color, value equals red.
 */
-html {
-  background-color: red;
+
+body {
+  background-color: rgb(141, 50, 50);
   color: white;
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
 }
 
-a {
+nav a {
   color: blue;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
 }
