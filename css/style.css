@@ -10,13 +10,13 @@ background-color: #E14B3B;
 color: white;
 }
 
-h1, h2, figcaption {
+h1 {
 background-color: white;
 color: #3E3E3E;
 font-size: 1.8rem;
 }
 
-p {
+p, h2, figcaption {
 background-color: white;
 color: #3E3E3E;
 font-size: 1rem;
