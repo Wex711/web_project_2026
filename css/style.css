@@ -1,9 +1,3 @@
-* {
-border: none;
-outline: none;
-box-sizing: border-box;
-}
-
 body {
 background-color: #E14B3B;
 color: #3E3E3E;
@@ -12,44 +6,54 @@ font-size: 1rem;
 margin: 0;
 }
 
-header, footer {
+header, nav, main, section, footer, article, aside, div {
 background-color: #E14B3B;
-color: white;
+color: #3E3E3E;
+}
+
+main {
+width: 80%;
+margin: 2rem auto;
+padding: 1rem;
+border: 2px solid black;
+}
+
+section {
+width: 90%;
+margin: 1.5rem auto;
+padding: 1rem;
+border: 2px solid black;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, table, tr, th, td, figure, figcaption {
+background-color: white;
+color: #3E3E3E;
+border: 1px solid black;
+padding: 0.5rem;
+margin: 1rem auto;
 }
 
 h1 {
 display: inline-block;
-background-color: white;
-color: #3E3E3E;
 font-size: 2.5rem;
-padding: 0.5rem;
-margin: 0.5rem auto;
-border: 1px solid black;
 }
 
 h2 {
 display: inline-block;
-background-color: white;
-color: #3E3E3E;
 font-size: 1.8rem;
-padding: 0.4rem;
-margin: 0 auto 1rem auto;
-border: 1px solid black;
 }
 
 p {
-background-color: white;
+width: 90%;
 margin: 1rem auto;
 padding: 0.75rem;
-width: 90%;
 border: 1px solid black;
 }
 
-ul, ol, table {
-background-color: white;
+ul, ol, table, figure {
 width: 90%;
-padding: 0.75rem;
 margin: 1rem auto;
+padding: 0.75rem;
 border: 1px solid black;
 }
 
@@ -58,32 +62,28 @@ color: blue;
 background-color: white;
 }
 
-main {
-width: 80%;
-margin: 2rem auto;
-padding: 1rem;
-background-color: #E14B3B;
-text-align: center;
-}
-
-section {
-margin: 1.5rem auto;
-padding: 1rem;
-background-color: #E14B3B;
-text-align: center;
+img {
+display: block;
+background-color: white;
+border: 1px solid black;
+padding: 0.5rem;
+margin: 1rem auto;
+max-width: 100%;
+height: auto;
 }
 
 .parent-box {
 width: 90%;
-padding: 1rem;
-background-color: #E14B3B;
 margin: 1rem auto;
+padding: 1rem;
+border: 2px solid black;
+background-color: #E14B3B;
 }
 
 .child-box {
 width: 100%;
 padding: 1rem;
+border: 1px solid black;
 background-color: white;
 box-sizing: border-box;
-border: 1px solid black;
 }
