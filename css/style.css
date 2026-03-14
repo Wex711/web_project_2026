@@ -40,7 +40,7 @@ width: 60%;
 height: auto;
 }
 
-h1, h2, p, figure, nav, nav a, footer {
+h1, h2, p, figure, nav, footer {
     border: 1px solid black;
 }
 
