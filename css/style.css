@@ -1,31 +1,48 @@
-* {
-background-color: #E14B3B;
-color: #3E3E3E;
-font-family: Arial;
-font-size: 1rem;
+body {
+    background-color: #E14B3B;
+    color: #3E3E3E;
+    font-family: Arial;
+    font-size: 1rem;
 }
 
-p, ul, ol, h1, h2, figcaption, header, footer {
-background-color: #F3F3F0;
-color: #3E3E3E;
-font-size: 1rem;    
+header, footer {
+    background-color: #E14B3B;
+    color: #F3F3F0;
 }
 
-nav, nav a {
-background-color: #F3F3F0;
-color: blue;
-font-size: 1rem;
+h1, h2 {
+    background-color: #F3F3F0;
+    color: #3E3E3E;
+    font-size: 1rem;
+}
+
+p {
+    background-color: #F3F3F0;
+    color: #3E3E3E;
+    font-size: 1rem;
+}
+
+nav {
+    background-color: #F3F3F0;
+    color: #3E3E3E;
+}
+
+nav a {
+    color: #3E3E3E;
+    font-size: 1rem;
 }
 
 figure {
-background-color: #F3F3F0;
+    background-color: #F3F3F0;
+}
+
+figcaption {
+    background-color: #F3F3F0;
+    color: #3E3E3E;
+    font-size: 1rem;
 }
 
 main img {
-width: 60%;
-height: auto;
+    width: 60%;
+    height: auto;
 }
-
-/*
-#3E3E3E - dex black
-#E14B3B - dex red
