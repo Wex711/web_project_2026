@@ -1,62 +1,62 @@
 body {
-  background-color: white;
-  color: black;
-  font-family: Arial, sans-serif;
-  font-size: 1rem;
+background-color: white;
+color: black;
+font-family: Arial, sans-serif;
+font-size: 1rem;
 }
 
 header {
-  background-color: red;
-  color: white;
+background-color: red;
+color: white;
 }
 
 #title {
-  color: white;
-  font-size: 2rem;
+color: white;
+font-size: 2rem;
 }
 
 nav {
-  background-color: red;
+background-color: red;
 }
 
 nav a {
-  color: #fff4a3;
-  font-size: 1.1em;
-  text-decoration: none;
+color: blue;
+font-size: 1.1em;
+text-decoration: none;
 }
 
 main {
-  background-color: white;
+background-color: white;
 }
 
 .screen {
-  background-color: white;
+background-color: white;
 }
 
 h1 {
-  color: red;
+color: red;
 }
 
 h2 {
-  color: red;
+color: red;
 }
 
 p {
-  color: black;
+color: black;
 }
 
 main p {
-  font-size: 1rem;
+font-size: 1rem;
 }
 
 ol {
-  color: black;
+color: black;
 }
 
 ul {
-  color: black;
+color: black;
 }
 
 a {
-  color: blue;
+color: blue;
 }
