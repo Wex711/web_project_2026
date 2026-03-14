@@ -13,13 +13,13 @@ color: white;
 h1 {
 background-color: white;
 color: #3E3E3E;
-font-size: 1.8rem;
+font-size: 2rem;
 }
 
 h2 {
 background-color: white;
 color: #3E3E3E;
-font-size: 1.4rem;
+font-size: 1.5rem;
 }
 
 p, figcaption {
@@ -33,11 +33,11 @@ color: blue;
 font-size: 1rem;
 }
 
-ol, ul {
+ol, ul, li {
 background-color: white;
 }
 
-table {
+table, th, td {
 background-color: white;
 }
 
