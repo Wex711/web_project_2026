@@ -1,113 +1,53 @@
-body {
-background-color:#E14B3B;
-color:#3E3E3E;
-font-family:Arial,sans-serif;
-font-size:1rem;
-margin:0;
-}
-
-header,nav,main,section {
-background-color:#E14B3B;
-color:#3E3E3E;
+* {
+background-color: #E14B3B;
+color: #3E3E3E;
+font-family: Arial;
+font-size: 1rem;
 }
 
 header, footer {
-color:white;
-text-align:center;
+background-color: #E14B3B;
+color: #F3F3F0;
 }
 
-main{
-width:80%;
-margin:2rem auto;
-padding:1rem;
-border:2px solid black;
-background-color:white;
+h1, h2 {
+background-color: #F3F3F0;
+color: #3E3E3E;
+font-size: 1rem;
 }
 
-section{
-width:90%;
-margin:1.5rem auto;
-padding:1rem;
-border:2px solid black;
-background-color:#E14B3B;
+p {
+background-color: #F3F3F0;
+color: #3E3E3E;
+font-size: 1rem;
 }
 
-h1,h2{
-background-color:white;
-color:#3E3E3E;
-border:1px solid black;
-padding:0.5rem;
-margin:1rem auto;
-display:inline-block;
+nav {
+background-color: #F3F3F0;
+color: blue;
 }
 
-h1{font-size:2.5rem;}
-h2{font-size:1.8rem;}
-
-p{
-background-color:white;
-color:#3E3E3E;
-border:1px solid black;
-padding:0.75rem;
-margin:1rem auto;
-width:90%;
+nav a {
+color: blue;
+font-size: 1rem;
 }
 
-ul,ol{
-background-color:white;
-border:1px solid black;
-padding:1rem 2rem;
-margin:1rem auto;
-width:90%;
-text-align:center;
-list-style-position:inside;
+figure {
+background-color: #F3F3F0;
 }
 
-li{
-margin:0.25rem 0;
+figcaption {
+background-color: #F3F3F0;
+color: #3E3E3E;
+font-size: 1rem;
 }
 
-table{
-background-color:white;
-border:1px solid black;
-margin:1rem auto;
-width:90%;
-border-collapse:collapse;
+main img {
+width: 60%;
+height: auto;
 }
 
-th,td{
-border:1px solid black;
-padding:0.5rem;
-text-align:left;
-}
-
-a{
-color:blue;
-background-color:white;
-}
-
-img{
-display:block;
-background-color:white;
-border:1px solid black;
-padding:0.5rem;
-margin:1rem auto;
-max-width:100%;
-height:auto;
-}
-
-.parent-box{
-width:90%;
-margin:1rem auto;
-padding:1rem;
-border:2px solid black;
-background-color:#E14B3B;
-}
-
-.child-box{
-width:100%;
-padding:1rem;
-border:1px solid black;
-background-color:white;
-box-sizing:border-box;
-}
+/*
+#3E3E3E - dex black
+#E14B3B - dex red
+#F3F3F0 - dex white
