@@ -17,7 +17,7 @@ section {
     background-color: #E14B3B;
     margin: 1.5rem 0;
     padding: 1rem;
-    border: 1px solid black;
+    border: none;
 }
 
 h1 {
@@ -79,7 +79,13 @@ nav {
     text-align: center;
 }
 
-nav a, p a {
+nav a {
+    background-color: transparent;
+    color: blue;
+    font-size: 1rem;
+}
+
+p a {
     background-color: #F3F3F0;
     color: blue;
     font-size: 1rem;
@@ -105,7 +111,13 @@ footer {
     margin-top: 1rem;
 }
 
-
+nav p {
+    background-color: transparent;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 
 
