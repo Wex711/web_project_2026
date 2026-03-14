@@ -5,41 +5,20 @@ font-family: Arial;
 font-size: 1rem;
 }
 
-header, footer {
-background-color: #E14B3B;
-color: #F3F3F0;
-}
-
-h1, h2 {
+p, ul, ol, h1, h2, figcaption, header, footer {
 background-color: #F3F3F0;
 color: #3E3E3E;
-font-size: 1rem;
+font-size: 1rem;    
 }
 
-p {
+nav, nav a {
 background-color: #F3F3F0;
-color: #3E3E3E;
-font-size: 1rem;
-}
-
-nav {
-background-color: #F3F3F0;
-color: blue;
-}
-
-nav a {
 color: blue;
 font-size: 1rem;
 }
 
 figure {
 background-color: #F3F3F0;
-}
-
-figcaption {
-background-color: #F3F3F0;
-color: #3E3E3E;
-font-size: 1rem;
 }
 
 main img {
@@ -50,4 +29,3 @@ height: auto;
 /*
 #3E3E3E - dex black
 #E14B3B - dex red
-#F3F3F0 - dex white
