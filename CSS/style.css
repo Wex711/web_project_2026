@@ -1,0 +1,62 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+}
+
+header {
+  background-color: red;
+  color: white;
+}
+
+#title {
+  color: white;
+  font-size: 2rem;
+}
+
+nav {
+  background-color: red;
+}
+
+nav a {
+  color: #fff4a3;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+main {
+  background-color: white;
+}
+
+.screen {
+  background-color: white;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: red;
+}
+
+p {
+  color: black;
+}
+
+main p {
+  font-size: 1rem;
+}
+
+ol {
+  color: black;
+}
+
+ul {
+  color: black;
+}
+
+a {
+  color: blue;
+}
