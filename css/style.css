@@ -108,3 +108,13 @@ border: 1px solid black;
 background-color: white;
 box-sizing: border-box;
 }
+
+ol {
+background-color: white;
+border: 1px solid black;
+padding: 1rem 2rem;
+margin: 1rem auto;
+width: 90%;
+text-align: left;
+list-style-position: inside;
+}
