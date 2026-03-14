@@ -1,4 +1,8 @@
-html {
-  background-color: red;
-  color: white;
+* {
+    color: white;
+    background-color: rgb(141, 50, 50);
+    font-family: Arial;
 }
+/*you use this formatting to make edits to a whole page. replace p with * to make universal changes
+use html to edit the whole page inside the html box, use h1 to change headers, p to change paragraph,
+etc
