@@ -16,7 +16,13 @@ color: #3E3E3E;
 font-size: 1.8rem;
 }
 
-p, h2, figcaption {
+h2 {
+background-color: white;
+color: #3E3E3E;
+font-size: 1.4rem;
+}
+
+p, figcaption {
 background-color: white;
 color: #3E3E3E;
 font-size: 1rem;
@@ -25,6 +31,14 @@ font-size: 1rem;
 nav a, nav, p a {
 color: blue;
 font-size: 1rem;
+}
+
+ol, ul {
+background-color: white;
+}
+
+table {
+background-color: white;
 }
 
 figure {
@@ -39,3 +53,4 @@ height: auto;
 /*
 #3E3E3E - dex black
 #E14B3B - dex red
+*/
