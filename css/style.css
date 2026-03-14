@@ -22,32 +22,48 @@ color: #3E3E3E;
 font-size: 1rem;
 }
 
-p, figcaption {
+p, ul, ol, table, figcaption {
 background-color: white;
 color: #3E3E3E;
-font-size: 1rem;
 }
 
-nav a, nav, p a {
+a {
 color: blue;
-font-size: 1rem;
-}
-
-ol, ul, li {
 background-color: white;
 }
 
-table, th, td {
-background-color: white;
+main {
+width: 80%;
+margin: 2rem auto;
+padding: 1rem;
+border: 2px solid white;
+background-color: #E14B3B;
 }
 
-figure {
-background-color: white;
+section {
+margin: 1.5rem 0;
+padding: 1rem;
+border: 2px solid white;
+background-color: #E14B3B;
 }
 
-main img {
-width: 60%;
-height: auto;
+p {
+margin: 1rem 0;
+padding: 0.75rem;
+border: 1px solid #3E3E3E;
+width: 90%;
+}
+
+ul, ol, table {
+width: 90%;
+border: 1px solid #3E3E3E;
+padding: 0.75rem;
+}
+
+th, td {
+background-color: white;
+border: 1px solid #3E3E3E;
+padding: 0.5rem;
 }
 
 /*
