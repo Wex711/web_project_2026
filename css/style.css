@@ -40,9 +40,8 @@ width: 60%;
 height: auto;
 }
 
-main {
+h1, h2, p, figure, nav, nav a {
     border: 1px solid black;
-    margin:2em
 }
 
 
