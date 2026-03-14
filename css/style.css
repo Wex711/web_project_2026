@@ -1,4 +1,4 @@
-html {
+body {
 background-color: #E14B3B;
 color: #3E3E3E;
 font-family: Arial;
@@ -9,12 +9,14 @@ h1 {
 background-color: #F3F3F0;
 color: #3E3E3E;
 font-size: 2em;
+font-family: Arial;
 }
 
 h2 {
 background-color: #F3F3F0;
 color: #3E3E3E;
 font-size: 1.5em;
+font-family: Arial;
 }
 
 p, ul, ol, li, figcaption, header, footer, em, strong, table, tr, th, td {
