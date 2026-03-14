@@ -6,7 +6,7 @@ font-size: 1rem;
 margin: 0;
 }
 
-header, nav, main, section, footer, article, aside, div {
+header, nav, main, section, footer {
 background-color: #E14B3B;
 color: #3E3E3E;
 }
@@ -25,36 +25,57 @@ padding: 1rem;
 border: 2px solid black;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, table, tr, th, td, figure, figcaption {
+h1, h2 {
 background-color: white;
 color: #3E3E3E;
 border: 1px solid black;
 padding: 0.5rem;
 margin: 1rem auto;
+display: inline-block;
 }
 
 h1 {
-display: inline-block;
 font-size: 2.5rem;
 }
 
 h2 {
-display: inline-block;
 font-size: 1.8rem;
 }
 
 p {
-width: 90%;
-margin: 1rem auto;
-padding: 0.75rem;
+background-color: white;
+color: #3E3E3E;
 border: 1px solid black;
+padding: 0.75rem;
+margin: 1rem auto;
+width: 90%;
 }
 
-ul, ol, table, figure {
-width: 90%;
-margin: 1rem auto;
-padding: 0.75rem;
+ul, ol {
+background-color: white;
 border: 1px solid black;
+padding: 1rem 2rem;
+margin: 1rem auto;
+width: 90%;
+text-align: left;
+}
+
+li {
+margin: 0.25rem 0;
+}
+
+table {
+background-color: white;
+border: 1px solid black;
+margin: 1rem auto;
+width: 90%;
+border-collapse: collapse;
+}
+
+th, td {
+border: 1px solid black;
+padding: 0.5rem;
+text-align: left;
 }
 
 a {
