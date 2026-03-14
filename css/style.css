@@ -1,17 +1,25 @@
 html {
-  background-color: red;
-  color: white;
-  font-family: Arial;
+    background-color: #E14B3B;  
+    font-family: Arial, sans-serif;
 }
 
-nav a {
-  color: blue;
+header, footer {
+    background-color: #E14B3B;
+    color: #3E3E3E;
+    text-align: center;
+    padding: 1rem;
 }
 
-p {
-  font-size: 1rem;
+main, section, p, h1, h2, nav {
+    background-color: #F3F3F0;   
+    color: #3E3E3E;             
 }
 
-h1 {
-  font-size: 2rem;
+a {
+    color: #3E3E3E;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
