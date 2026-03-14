@@ -17,13 +17,13 @@ color: #3E3E3E;
 font-size: 1.5em;
 }
 
-p, p a, ul, ol, li, figcaption, header, footer, em, strong, table, tr, th, td {
+p, ul, ol, li, figcaption, header, footer, em, strong, table, tr, th, td {
 background-color: #F3F3F0;
 color: #3E3E3E;
 font-size: 1rem;    
 }
 
-nav, nav a {
+nav, nav a, p a {
 background-color: #F3F3F0;
 color: blue;
 font-size: 1rem;
