@@ -1,0 +1,17 @@
+html {
+  background-color: red;
+  color: white;
+  font-family: Arial;
+}
+
+nav a {
+  color: blue;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
