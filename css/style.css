@@ -138,3 +138,7 @@ border: 1px solid black;
 h1, h2, p, ol, ul, li {
     text-align: center
 }
+
+ol {
+    list-style-position: inside;
+}
