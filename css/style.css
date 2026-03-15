@@ -188,3 +188,7 @@ font-style: italic;
 h1, h2, h3, p {
 text-align: center;
 }
+
+h1, h2, h3, p {
+display: inline-block;
+}
