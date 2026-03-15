@@ -2,7 +2,7 @@ html {
 font-size: 100%;
 }
 
-body, header {
+body {
 background-color: #E14B3B;
 color: #3E3E3E;
 font-family: "Trebuchet MS", Arial, sans-serif;
@@ -185,10 +185,14 @@ em {
 font-style: italic;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, footer {
 text-align: center;
 }
 
-h1, h2, h3, p, footer, ol, ul, nav, p a {
+h1, h2, h3, p, footer, nav, p a {
 display: inline-block;
+}
+
+header {
+background-color: #E14B3B;
 }
