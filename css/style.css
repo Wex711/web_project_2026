@@ -2,7 +2,7 @@ html {
 font-size: 100%;
 }
 
-body {
+body, header {
 background-color: #E14B3B;
 color: #3E3E3E;
 font-family: "Trebuchet MS", Arial, sans-serif;
