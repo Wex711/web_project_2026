@@ -185,14 +185,14 @@ em {
 font-style: italic;
 }
 
-h1, h2, h3, p, footer {
-text-align: center;
-}
-
 h1, h2, h3, p, footer, nav, p a {
 display: inline-block;
 }
 
 header {
 background-color: #E14B3B;
+}
+
+header, h1, h2, h3, p, nav, main, section, footer {
+text-align: center;
 }
