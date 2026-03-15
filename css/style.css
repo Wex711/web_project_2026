@@ -189,6 +189,6 @@ h1, h2, h3, p {
 text-align: center;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, footer, ol, ul, nav, p a, {
 display: inline-block;
 }
