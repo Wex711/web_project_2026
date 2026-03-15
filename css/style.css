@@ -134,3 +134,7 @@ border: none;
 table, th, td {
 border: 1px solid black;
 }
+
+h1, h2 {
+    text-align: center;
+}
