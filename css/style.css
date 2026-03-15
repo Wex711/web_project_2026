@@ -193,10 +193,11 @@ header {
 background-color: #E14B3B;
 }
 
-*, p {
+* {
 text-align: center;
 }
 
 figure {
 background-color: white;
+text-align: center;
 }
