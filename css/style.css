@@ -135,6 +135,6 @@ table, th, td {
 border: 1px solid black;
 }
 
-h1, h2, p, ol, ul {
+h1, h2, p, ol, ul, li {
     text-align: center
 }
