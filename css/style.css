@@ -1,0 +1,8 @@
+/* Universal styling*/
+* {
+background: linear-gradient(#E14B3B, #272727);
+color: #3E3E3E;
+/*Come back and change these fonts later*/
+font-family: "Trebuchet MS", Arial, sans-serif;
+text-align: center;
+}
