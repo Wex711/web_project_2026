@@ -9,3 +9,14 @@ text-align: center;
 html, body, main {
 background-color:#E14B3B;
 }
+
+section, h1, h2 {
+background-color: #F3F3f3;
+}
+
+/*
+Pokedex Colors
+#E14B3B - Red
+#F3F3f3 - White
+#3E3E3E - Blackish Gray
+*/
