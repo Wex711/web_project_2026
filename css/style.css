@@ -5,6 +5,9 @@ color: #3E3E3E;
 font-family: "Trebuchet MS", Arial, sans-serif;
 text-align: center;
 line-height: 1.5;
+padding: .75rem;
+width: 80%;
+/**/
 }
 
 html, body, main {
