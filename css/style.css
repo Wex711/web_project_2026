@@ -4,14 +4,16 @@ color: #3E3E3E;
 /*Come back and change these fonts later*/
 font-family: "Trebuchet MS", Arial, sans-serif;
 text-align: center;
+line-height: 1.5;
 }
 
 html, body, main {
 background-color:#E14B3B;
 }
 
-section, h1, h2, h3, footer, header, a, p a {
-background-color: #F3F3f3;
+section, h1, h2, h3, footer, header, nav, ol, ul, li {
+background-color: #ffffff;
+border: 1px solid #3E3E3E;
 }
 
 /*Adding a gradient*/
@@ -19,13 +21,16 @@ html {
 background: linear-gradient(#E14B3B, #272727);
 }
 
-
-
-
+/*giving the links blue coloring and appropriate backgrounds*/
+a, p a {
+background-color: #ffffff;
+border: 1px solid #3E3E3E;
+color: blue;
+}
 
 /*
 Pokedex Colors
 #E14B3B - Red
-#F3F3f3 - White
+#ffffff - White
 #3E3E3E - Blackish Gray
 */
