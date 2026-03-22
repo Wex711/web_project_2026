@@ -15,7 +15,7 @@ max-width: 1000px;   /*keeps text from leaking over the edge*/
 margin: 2rem auto;   /*centers the text horizontally throughout the page*/
 }
 
-section, h1, h2, h3, footer, nav, ol, ul, li {
+section, h1, h2, h3, footer, nav, tr, td, th {
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
 }
