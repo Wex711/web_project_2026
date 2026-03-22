@@ -5,19 +5,17 @@ color: #3E3E3E;
 font-family: "Trebuchet MS", Arial, sans-serif;
 text-align: center;
 line-height: 1.5;
+background-color: #E14B3B;
 /**/
 }
 
-html, body {
+html, body, main {
 background-color:#E14B3B;
 margin: 2rem auto;   /*centers the text horizontally throughout the page*/
 }
 
 main {
 max-width: 1000px; /*keeps text from leaking over the edge*/
-background-color:#E14B3B;
-margin: 2rem auto;   
-padding: 0 1.5rem; /*creates space between text and text borders*/
 }
 
 section, h1, h2, h3, nav, tr, td, th {
@@ -32,11 +30,6 @@ background-color: #ffffff;
 /*seperate color assignment for header, different background than the rest*/
 header {
 background-color: #E14B3B;
-}
-
-/*Adding a gradient*/
-html {
-background: linear-gradient(#E14B3B, #3E3E3E);
 }
 
 /*giving the links blue coloring and appropriate backgrounds*/
