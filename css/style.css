@@ -83,6 +83,14 @@ section figure {
 margin: 2rem;
 }
 
+
+ol {
+display: inline-block;
+text-align: left;
+margin: 1rem auto;
+padding: 1rem 2rem;
+}
+
 /*
 Pokedex Colors
 #E14B3B - Red
