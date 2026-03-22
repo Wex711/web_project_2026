@@ -11,7 +11,6 @@ padding: 1rem;
 
 html, body, main {
 background-color:#E14B3B;
-width: 80%;
 max-width: 1000px;   /*keeps text from leaking over the edge*/
 margin: 2rem auto;   /*centers the text horizontally throughout the page*/
 }
