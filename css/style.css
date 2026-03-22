@@ -26,7 +26,7 @@ background-color: #E14B3B;
 
 /*Adding a gradient*/
 html {
-background: linear-gradient(#E14B3B, #E14B3B);
+background: linear-gradient(#E14B3B, #3E3E3E);
 }
 
 /*giving the links blue coloring and appropriate backgrounds*/
@@ -38,15 +38,13 @@ color: blue;
 
 /*giving the page list blue coloring*/
 a {
-    color: blue;
+color: blue;
 }
 
-section {
-padding: 1rem;
-}
 
-h1, h2, h3 {
-padding: .3rem;
+/*PADDING so the page is cleaner*/
+h1, h2, h3, p, nav {
+display: inline-block;
 }
 
 /*
