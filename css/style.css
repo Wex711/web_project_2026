@@ -20,9 +20,13 @@ margin: 2rem auto;
 padding: 0 1.5rem; /*creates space between text and text borders*/
 }
 
-section, h1, h2, h3, footer, nav, tr, td, th {
+section, h1, h2, h3, nav, tr, td, th {
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
+}
+
+footer {
+background-color: #ffffff;
 }
 
 /*seperate color assignment for header, different background than the rest*/
@@ -31,7 +35,7 @@ background-color: #E14B3B;
 }
 
 /*Adding a gradient*/
-html {
+main {
 background: linear-gradient(#E14B3B, #3E3E3E);
 }
 
