@@ -56,7 +56,7 @@ height: auto;
 img {
 transition: 0.3s;
 }
- 
+
 /*makes it so that the images pop when hovered over*/
 img:hover {
 transform: scale(1.05);
