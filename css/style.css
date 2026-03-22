@@ -71,6 +71,11 @@ border-collapse: collapse;
 background-color: #E14B3B;
 }
 
+/*adding margins for figures*/
+figure {
+margin: 2rem;
+}
+
 /*
 Pokedex Colors
 #E14B3B - Red
