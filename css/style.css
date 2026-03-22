@@ -35,7 +35,7 @@ background-color: #E14B3B;
 }
 
 /*Adding a gradient*/
-body {
+html {
 background: linear-gradient(#E14B3B, #3E3E3E);
 }
 
