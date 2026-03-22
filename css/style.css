@@ -64,11 +64,11 @@ filter: brightness(1.2);
 box-shadow: 0 0 15px #ffffff;
 }
 
-/*Making the table more compact*/
 table {
 width: auto;
 margin: 0 auto;
 border-collapse: collapse;
+background-color: #E14B3B;
 }
 
 /*
