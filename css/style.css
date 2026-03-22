@@ -27,7 +27,7 @@ background-color: #E14B3B;
 
 /*Adding a gradient*/
 html {
-background: linear-gradient(#E14B3B, #272727);
+background: linear-gradient(#E14B3B, #E14B3B);
 }
 
 /*giving the links blue coloring and appropriate backgrounds*/
