@@ -5,12 +5,15 @@ color: #3E3E3E;
 font-family: "Trebuchet MS", Arial, sans-serif;
 text-align: center;
 line-height: 1.5;
-padding: .75rem;
+padding: 1rem;
 /**/
 }
 
 html, body, main {
 background-color:#E14B3B;
+width: 80%;
+max-width: 1000px;   /*keeps text from leaking over the edge*/
+margin: 2rem auto;   /*centers the text horizontally throughout the page*/
 }
 
 section, h1, h2, h3, footer, nav, ol, ul, li {
@@ -18,7 +21,7 @@ background-color: #ffffff;
 border: 1px solid #3E3E3E;
 }
 
-/*seperate one for header, different background*/
+/*seperate color assignment for header, different background than the rest*/
 header {
 background-color: #E14B3B;
 }
@@ -34,6 +37,8 @@ background-color: #ffffff;
 border: 1px solid #3E3E3E;
 color: blue;
 }
+
+
 
 /*
 Pokedex Colors
