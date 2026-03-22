@@ -43,7 +43,7 @@ color: blue;
 
 
 /*PADDING so the page is cleaner*/
-h1, h2, h3, p, nav {
+h1, h2, h3, nav {
 display: inline-block;
 }
 
