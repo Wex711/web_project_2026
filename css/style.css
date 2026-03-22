@@ -10,15 +10,19 @@ line-height: 1.5;
 
 html, body, main {
 background-color:#E14B3B;
-margin: 0;   /*centers the text horizontally throughout the page*/
+margin: 2rem auto;
 padding: 0;
+text-align: center;
 }
+
 
 main {
-max-width: 1000px; /*keeps text from leaking over the edge*/
+max-width: 1000px; 
+margin: 2rem auto;      
+padding: 0 1.5rem;       
 }
 
-section, h1, h2, h3, nav, tr, td, th {
+section, h1, h2, h3, nav, tr, td, th, footer {
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
 }
