@@ -79,7 +79,7 @@ background-color: #E14B3B;
 }
 
 /*adding margins for figures*/
-section figure {
+section figure picture{
 margin: 2rem;
 }
 
