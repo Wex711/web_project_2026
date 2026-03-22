@@ -47,6 +47,12 @@ h1, h2, h3, nav {
 display: inline-block;
 }
 
+/*makes it so that the pokedex image doesn't overflow*/
+img {
+max-width: 100%;
+height: auto;
+}
+
 /*
 Pokedex Colors
 #E14B3B - Red
