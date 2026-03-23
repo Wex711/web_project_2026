@@ -105,6 +105,15 @@ background-color: #E14B3B;
 border: none;
 }
 
+body {
+background:
+linear-gradient(to right,
+#3E3E3E 0%,
+#E14B3B 4%,
+#E14B3B 96%,
+#3E3E3E 100%);
+}
+
 /*
 Pokedex Colors
 #E14B3B - Red
