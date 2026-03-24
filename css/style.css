@@ -114,6 +114,12 @@ linear-gradient(to right,
 #3E3E3E 100%);
 }
 
+/*Spacing out boxes*/
+section {
+margin: 2rem 0;
+}
+
+
 /*
 Pokedex Colors
 #E14B3B - Red
