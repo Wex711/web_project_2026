@@ -139,23 +139,6 @@ padding: 0.5rem 1rem;
     align-items: center;
 }
 
-/*Mobile width setting*/
-@media (max-width: 900px) {
-html, body, header {
-background: linear-gradient(to right,
-#3E3E3E 0%,
-#E14B3B 20%,
-#E14B3B 80%,
-#3E3E3E 100%);
-}
-body {
-margin: 0;
-}
-main {
-padding: 0 0.5rem;
-}
-}
-
 /*
 Pokedex Colors
 #E14B3B - Red
