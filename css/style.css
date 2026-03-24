@@ -55,7 +55,7 @@ display: inline-block;
 }
 
 h2 {
-display: block;
+display: inline-block;
 margin-bottom: 1rem;
 }
 
@@ -99,7 +99,6 @@ background-color: #ffffff;
 border: 1px solid #3E3E3E;
 width: auto;
 }
-}
 
 /*Making list and footer formatting better*/
 ol, footer {
@@ -124,6 +123,13 @@ linear-gradient(to right,
 /*Spacing out boxes*/
 section {
 margin: 2rem 0;
+}
+
+/*fixing footer*/
+footer {
+display: inline-block;
+margin: 2rem auto;
+padding: 0.5rem 1rem;
 }
 
 
