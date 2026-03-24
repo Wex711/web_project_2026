@@ -116,8 +116,8 @@ html, body, header {
 background:
 linear-gradient(to right,
 #3E3E3E 0%,
-#E14B3B 4%,
-#E14B3B 96%,
+#E14B3B 12%,
+#E14B3B 88%,
 #3E3E3E 100%);
 }
 
@@ -137,6 +137,23 @@ padding: 0.5rem 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/*Mobile width setting*/
+@media (max-width: 900px) {
+html, body, header {
+background: linear-gradient(to right,
+#3E3E3E 0%,
+#E14B3B 20%,
+#E14B3B 80%,
+#3E3E3E 100%);
+}
+body {
+margin: 0;
+}
+main {
+padding: 0 0.5rem;
+}
 }
 
 /*
