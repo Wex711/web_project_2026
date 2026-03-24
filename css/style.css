@@ -105,7 +105,7 @@ background-color: #E14B3B;
 border: none;
 }
 
-html, body, header, nav {
+html, body, header {
 background:
 linear-gradient(to right,
 #3E3E3E 0%,
