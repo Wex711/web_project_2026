@@ -107,8 +107,12 @@ width: fit-content;
 }
 
 .types-list {
-background-color: #E14B3B;
-border: none;
+display: inline-block;
+background-color: #ffffff;
+border: 1px solid #3E3E3E;
+padding: 1.5rem;
+margin: 2rem auto;
+text-align: center;
 }
 
 html, body, header {
