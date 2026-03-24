@@ -132,6 +132,11 @@ margin: 2rem auto;
 padding: 0.5rem 1rem;
 }
 
+.types-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /*
 Pokedex Colors
