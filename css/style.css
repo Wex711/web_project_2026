@@ -54,6 +54,11 @@ h1, h2, h3, nav {
 display: inline-block;
 }
 
+h2 {
+display: block;
+margin-bottom: 1rem;
+}
+
 /*makes it so that the pokedex image doesn't overflow*/
 img {
 max-width: 100%;
@@ -85,13 +90,15 @@ margin: 2rem;
 
 
 ol {
+list-style-position: inside;
 display: inline-block;
 text-align: left;
 margin: 1rem auto;
-padding: 0 0 0 1.5rem;
+padding-left: 0;
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
 width: auto;
+}
 }
 
 /*Making list and footer formatting better*/
