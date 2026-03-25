@@ -160,6 +160,11 @@ max-width: 400px;
 flex: 1 1 320px;
 }
 
+.about-columns {
+display: flex;
+flex-wrap: wrap;
+}
+
 /*
 Pokedex Colors
 #E14B3B - Red
