@@ -144,10 +144,10 @@ align-items: center;
 }
 
 nav ul {
-display:flex;
-flex-flow:wrap
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
 }
-
 
 /*
 Pokedex Colors
