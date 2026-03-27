@@ -86,12 +86,12 @@ p a {
 text-decoration: none;
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
-color: blue;
+color: #3E3E3E;
 }
 
 a {
 text-decoration: none;
-color: blue;
+color: #3E3E3E;
 }
 
 img {
@@ -116,7 +116,6 @@ list-style: none;
 gap: 10px;
 }
 
-/*DOUBLE COLUMN SYNTAX*/
 .columns {
 display: flex;
 gap: 30px;
