@@ -121,6 +121,7 @@ gap: 10px;
 justify-content: center;*/
 display: flex;
 flex-wrap: wrap;
+border: 1px solid #3E3E3E;
 }
 
 .partway {
@@ -128,7 +129,7 @@ flex: 1;
 min-width: 200px;
 background-color: #ffffff;
 padding: 15px 30px;
-border: 1px solid #3E3E3E;
+box-sizing:border-box;
 }
 
 .notstarted {
@@ -136,5 +137,5 @@ flex: 1;
 min-width: 200px;
 background-color: #ffffff;
 padding: 15px 30px;
-border: 1px solid #3E3E3E;
+box-sizing:border-box;
 }
