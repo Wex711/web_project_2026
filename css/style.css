@@ -83,12 +83,14 @@ margin: 1rem auto;
 
 /*Other Elements*/
 p a {
+text-decoration: none;
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
 color: blue;
 }
 
 a {
+text-decoration: none;
 color: blue;
 }
 
