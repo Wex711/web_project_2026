@@ -113,6 +113,7 @@ list-style: none;
 gap: 10px;
 }
 
+/*DOUBLE COLUMN SYNTAX*/
 .columns {
 display: flex;
 gap: 30px;
