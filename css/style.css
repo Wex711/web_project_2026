@@ -73,7 +73,7 @@ border: 1px solid #3E3E3E;
 
 table {
 background-color: #E14B3B;
-margin: 1rem 1rem;
+margin: 1rem 0rem;
 }
 
 /*Other Elements*/
@@ -94,9 +94,8 @@ height: auto;
 
 ol {
 list-style-position: inside;
-display: inline-block;
 text-align: left;
-margin: 1rem auto;
+margin: 1rem 0rem;
 padding-left: 0;
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
