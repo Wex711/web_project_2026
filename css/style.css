@@ -96,10 +96,8 @@ ol {
 list-style-position: inside;
 text-align: left;
 margin: 1rem 0rem;
-padding-left: 0;
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
-width: fit-content;
 }
 
 nav ul {
@@ -107,12 +105,5 @@ display: flex;
 flex-flow: wrap;
 justify-content: space-evenly;
 list-style: none;
-gap: 10px;
-}
-
-.main {
-display: flex;
-flex-flow: row wrap;
-justify-content: center;
 gap: 10px;
 }
