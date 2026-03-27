@@ -15,32 +15,28 @@ line-height: 1.5;
 main{
 background-color:#E14B3B;
 max-width: 1000px; 
-margin: 1rem 0rem;      
-padding: 1rem 1rem;      
 }
 
 h1{
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
-display: inline-block;
 }
 
 h2{
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
-display: inline-block;
-margin-bottom: 1rem;
 }
 
 nav{
 background-color: #ffffff;
-display: inline-block;
 border: 1px solid #3E3E3E;
 }
 
 section{
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
+padding: 30px 30px
+margin: 30px 0px;
 }
 
 tr{
