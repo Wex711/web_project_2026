@@ -14,10 +14,9 @@ line-height: 1.5;
 
 main{
 background-color:#E14B3B;
-margin: 2rem auto;
 max-width: 1000px; 
-margin: 2rem auto;      
-padding: 0 1.5rem;      
+margin: 1rem 0rem;      
+padding: 1rem 1rem;      
 }
 
 h1{
