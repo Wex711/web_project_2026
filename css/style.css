@@ -119,9 +119,10 @@ gap: 10px;
 display: flex;
 gap: 30px;
 flex-flow: row wrap;
+justify-content: center;
 margin: 1rem auto;
 }
 
-.columns h2{
+.columns h2 {
 margin: 1rem auto;
 }
