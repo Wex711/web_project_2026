@@ -131,6 +131,7 @@ min-width: 200px;
 background-color: #ffffff;
 padding: 15px 30px;
 box-sizing:border-box;
+border: 1px solid #3E3E3E;
 }
 
 .child2 {
@@ -139,4 +140,6 @@ min-width: 200px;
 background-color: #ffffff;
 padding: 15px 30px;
 box-sizing:border-box;
+border: 1px solid #3E3E3E;
 }
+
