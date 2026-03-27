@@ -1,15 +1,11 @@
 html{
 background-color:#E14B3B;
-padding: 0;
-margin: 0;
 background:linear-gradient(to right,#3E3E3E 0%,#E14B3B 4%,#E14B3B 96%,#3E3E3E 100%);
 }
 
 body{
 background-color:#E14B3B;
-padding: 0;
 text-align: center;
-margin: 0;
 background:linear-gradient(to right,#3E3E3E 0%,#E14B3B 4%,#E14B3B 96%,#3E3E3E 100%);
 color: #3E3E3E;
 font-family: "Trebuchet MS", Arial, sans-serif;
@@ -18,7 +14,6 @@ line-height: 1.5;
 
 main{
 background-color:#E14B3B;
-padding: 0;
 margin: 2rem auto;
 max-width: 1000px; 
 margin: 2rem auto;      
@@ -41,6 +36,11 @@ margin-bottom: 1rem;
 nav{
 background-color: #ffffff;
 display: inline-block;
+border: 1px solid #3E3E3E;
+}
+
+section{
+background-color: #ffffff;
 border: 1px solid #3E3E3E;
 }
 
@@ -116,15 +116,6 @@ display: inline-block;
 width: fit-content;
 }
 
-
-.types-list {
-background-color: #E14B3B;
-border: none;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
 nav ul {
 display: flex;
 flex-flow: wrap;
@@ -142,6 +133,7 @@ gap: 10px;
 }
 
 /*
+USE <section class=insertnamehere> and then .insertnameher{} to target specific parts
 Pokedex Colors
 #E14B3B - Red
 #ffffff - White
