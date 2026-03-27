@@ -119,4 +119,5 @@ display: flex;
 gap: 30px;
 flex-flow: row wrap;
 justify-content: center;
+border: 1px solid #3E3E3E;
 }
