@@ -1,56 +1,42 @@
-html{
+/*Basic Elements*/
+html {
 background-color:#E14B3B;
 background:linear-gradient(to right,#3E3E3E 0%,#E14B3B 4%,#E14B3B 96%,#3E3E3E 100%);
-max-width: 1000px
 }
 
-body{
+body {
 background-color:#E14B3B;
 color: #3E3E3E;
 text-align: center;
 font-family: "Trebuchet MS", Arial, sans-serif;
 line-height: 1.5;
+max-width: 1000px
 }
 
-main{
+main {
 background-color:#E14B3B;
 }
 
-h1{
+h1 {
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
 }
 
-h2{
+h2 {
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
 }
 
-nav{
+nav {
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
 }
 
-section{
+section {
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
 padding: 15px 30px;
 margin: 30px 0;
-}
-
-tr{
-background-color: #ffffff;
-border: 1px solid #3E3E3E;
-}
-
-td{
-background-color: #ffffff;
-border: 1px solid #3E3E3E;
-}
-
-th{
-background-color: #ffffff;
-border: 1px solid #3E3E3E;
 }
 
 header {
@@ -64,6 +50,23 @@ margin: 1rem 0rem;
 padding: 0.5rem 1rem;
 }
 
+/*Table Elements*/
+tr {
+background-color: #ffffff;
+border: 1px solid #3E3E3E;
+}
+
+td {
+background-color: #ffffff;
+border: 1px solid #3E3E3E;
+}
+
+th {
+background-color: #ffffff;
+border: 1px solid #3E3E3E;
+}
+
+/*Other Elements*/
 p a {
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
@@ -78,12 +81,6 @@ img {
 max-width: 100%;
 height: auto;
 transition: 0.3s;
-}
-
-img:hover {
-transform: scale(1.05);
-filter: brightness(1.2);
-box-shadow: 0 0 15px #ffffff;
 }
 
 table {
@@ -112,7 +109,6 @@ list-style: none;
 gap: 10px;
 }
 
-/*trying to make all of main's stuff flexbox*/
 .main {
 display: flex;
 flex-flow: row wrap;
