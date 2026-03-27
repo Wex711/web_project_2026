@@ -149,6 +149,14 @@ flex-flow: row wrap;
 justify-content: space-evenly;
 }
 
+/*trying to make all of main's stuff flexbox*/
+.main {
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+gap: 10px;
+}
+
 /*
 Pokedex Colors
 #E14B3B - Red
