@@ -112,3 +112,10 @@ justify-content: space-evenly;
 list-style: none;
 gap: 10px;
 }
+
+.columns {
+display: flex;
+gap: 30px;
+flex-flow: row wrap;
+justify-content: center;
+}
