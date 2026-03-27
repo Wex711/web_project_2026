@@ -21,11 +21,13 @@ background-color:#E14B3B;
 h1 {
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
+width: fit-content;
 }
 
 h2 {
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
+width: fit-content;
 }
 
 nav {
