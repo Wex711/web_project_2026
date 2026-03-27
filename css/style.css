@@ -116,14 +116,25 @@ list-style: none;
 gap: 10px;
 }
 
-.tasks {
-display: flex;
-gap: 30px;
-flex-wrap: wrap;
-justify-content: center;
-}
-
 .columns {
-text-align: center;
+/*text-align: center;
+justify-content: center;*/
+display: flex;
+flex-wrap: wrap;
 }
 
+.partway {
+flex: 1;
+min-width: 200px;
+background-color: #ffffff;
+padding: 15px 30px;
+/*box-sizing: border-box;*/
+}
+
+.notstarted {
+flex: 1;
+min-width: 200px;
+background-color: #ffffff;
+padding: 15px 30px;
+/*box-sizing: border-box;*/
+}
