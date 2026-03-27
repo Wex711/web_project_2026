@@ -145,8 +145,9 @@ align-items: center;
 
 nav ul {
 display: flex;
-flex-flow: row wrap;
+flex-flow: wrap;
 justify-content: space-evenly;
+list-style: none;
 }
 
 /*trying to make all of main's stuff flexbox*/
