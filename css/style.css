@@ -1,76 +1,102 @@
-/* Universal styling*/
 * {
 color: #3E3E3E;
-/*Come back and change these fonts later*/
 font-family: "Trebuchet MS", Arial, sans-serif;
-text-align: center;
 line-height: 1.5;
 }
 
-html, body, main {
+html{
+background-color:#E14B3B;
+padding: 0;
+margin: 0;
+background:linear-gradient(to right,#3E3E3E 0%,#E14B3B 4%,#E14B3B 96%,#3E3E3E 100%);
+}
+
+body{
 background-color:#E14B3B;
 padding: 0;
 text-align: center;
+margin: 0;
+background:linear-gradient(to right,#3E3E3E 0%,#E14B3B 4%,#E14B3B 96%,#3E3E3E 100%);
 }
 
-html, body {
-    margin: 0;
-}
-
-main {
-    margin: 2rem auto;
-}
-
-main {
+main{
+background-color:#E14B3B;
+padding: 0;
+margin: 2rem auto;
 max-width: 1000px; 
 margin: 2rem auto;      
-padding: 0 1.5rem;       
+padding: 0 1.5rem;      
 }
 
-section, h1, h2, h3, nav, tr, td, th, footer {
+h1{
+background-color: #ffffff;
+border: 1px solid #3E3E3E;
+display: inline-block;
+}
+
+h2{
+background-color: #ffffff;
+border: 1px solid #3E3E3E;
+display: inline-block;
+margin-bottom: 1rem;
+}
+
+nav{
+background-color: #ffffff;
+display: inline-block;
+border: 1px solid #3E3E3E;
+}
+
+tr{
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
 }
 
-footer {
+td{
 background-color: #ffffff;
+border: 1px solid #3E3E3E;
 }
 
-/*seperate color assignment for header, different background than the rest*/
+th{
+background-color: #ffffff;
+border: 1px solid #3E3E3E;
+}
+
 header {
 background-color: #E14B3B;
+background:linear-gradient(to right,#3E3E3E 0%,#E14B3B 4%,#E14B3B 96%,#3E3E3E 100%);
 }
 
-/*giving the links blue coloring and appropriate backgrounds*/
+footer {
+background-color: #ffffff;
+border: 1px solid #3E3E3E;
+display: inline-block;
+margin: 2rem auto;
+padding: 0.5rem 1rem;
+display: inline-block;
+width: fit-content;
+}
+
 p a {
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
 color: blue;
 }
 
-/*giving the page list blue coloring*/
 a {
 color: blue;
 }
 
 
-/*PADDING so the page is cleaner*/
-h1, h2, h3, nav {
-display: inline-block;
-}
 
-h2 {
-display: inline-block;
-margin-bottom: 1rem;
-}
+
+
+
 
 /*makes it so that the pokedex image doesn't overflow*/
 img {
 max-width: 100%;
 height: auto;
-}
-
-img {
 transition: 0.3s;
 }
 
@@ -103,44 +129,23 @@ padding-left: 0;
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
 width: auto;
-}
-
-/*Making list and footer formatting better*/
-ol, footer {
 display: inline-block;
 width: fit-content;
 }
 
+
 .types-list {
 background-color: #E14B3B;
 border: none;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
-html, body, header {
-background:
-linear-gradient(to right,
-#3E3E3E 0%,
-#E14B3B 4%,
-#E14B3B 96%,
-#3E3E3E 100%);
-}
 
 /*Spacing out boxes*/
 section {
 margin: 2rem 0;
-}
-
-/*fixing footer*/
-footer {
-display: inline-block;
-margin: 2rem auto;
-padding: 0.5rem 1rem;
-}
-
-.types-list {
-display: flex;
-flex-direction: column;
-align-items: center;
 }
 
 nav ul {
