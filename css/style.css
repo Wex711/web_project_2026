@@ -120,7 +120,6 @@ display: flex;
 gap: 30px;
 flex-flow: row wrap;
 justify-content: center;
-margin: 1rem auto;
 }
 
 .columns h2 {
