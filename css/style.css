@@ -46,6 +46,7 @@ margin: 1rem 0rem;
 
 header {
 background-color: #E14B3B;
+width: fit-content;
 }
 
 footer {
@@ -53,6 +54,7 @@ background-color: #ffffff;
 border: 1px solid #3E3E3E;
 margin: 1rem 0rem;
 padding: 0.5rem 1rem;
+width: fit-content;
 }
 
 /*Table Elements*/
