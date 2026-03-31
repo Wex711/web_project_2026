@@ -35,6 +35,9 @@ margin: 1rem auto;
 nav {
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
+
+position: sticky;
+top: 0;
 }
 
 section {
