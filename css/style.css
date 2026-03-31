@@ -38,12 +38,12 @@ background-color: #ffffff;
 border: 1px solid #3E3E3E;
 /*Making it so the top tab stays on screen*/
 position: sticky;
-top: 1rem;
+top: 0;
 }
 
 section {
 background-color: #ffffff;
-border: 1px solid #oE3E3E;
+border: 1px solid #3E3E3E;
 padding: 15px 30px;
 margin: 1rem 0rem;
 }
@@ -52,9 +52,6 @@ header {
 background-color: #E14B3B;
 width: fit-content;
 margin: 1rem auto;
-
-position: sticky;
-top: 0;
 }
 
 footer {
@@ -135,8 +132,10 @@ border: 1px solid #3E3E3E;
 background-color: #ffffff;
 }
 
+/*child box*/
 .child1 {
 flex: 1;
+
 /*defines the dimensions for the to do list*/
 min-width: 200px;
 background-color: #ffffff;
@@ -145,6 +144,7 @@ box-sizing:border-box;
 border: 1px solid #3E3E3E;
 }
 
+/*child box 2*/
 .child2 {
 flex: 1;
 min-width: 200px;
