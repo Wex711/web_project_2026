@@ -3,7 +3,7 @@ html {
 background-color:#E14B3B;
 background:linear-gradient(to right,#3E3E3E 0%,#E14B3B 4%,#E14B3B 96%,#3E3E3E 100%);
 }
-
+/*defines line height for the whole webpage,sets max width text can stretch to. margin 1rem auto centers the text and establishes padding.*/
 body {
 background-color:#E14B3B;
 color: #3E3E3E;
@@ -21,6 +21,7 @@ background-color:#E14B3B;
 h1 {
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
+/*Makes the text stick to the box*/
 width: fit-content;
 margin: 1rem auto;
 }
@@ -35,7 +36,7 @@ margin: 1rem auto;
 nav {
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
-
+/*Making it so the top tab stays on screen*/
 position: sticky;
 top: 0;
 }
@@ -51,6 +52,9 @@ header {
 background-color: #E14B3B;
 width: fit-content;
 margin: 1rem auto;
+
+position: sticky;
+top: 0;
 }
 
 footer {
@@ -86,6 +90,7 @@ margin: 1rem auto;
 
 /*Other Elements*/
 p a {
+/*makes it so that hyperlinks are gray and not underlined*/
 text-decoration: none;
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
@@ -93,6 +98,7 @@ color: #3E3E3E;
 }
 
 a {
+/*making sure other hyperlinks arent underlined*/
 text-decoration: none;
 color: #3E3E3E;
 }
@@ -103,6 +109,7 @@ height: auto;
 }
 
 ol {
+/*turning ordered lists into flexbox assets, making them wrap around the box and center*/
 display:flex;
 gap: 30px;
 flex-wrap: wrap;
@@ -112,6 +119,7 @@ justify-content: center;
 }
 
 nav ul {
+/*turning unordered list into flexbox assets*/
 display: flex;
 flex-flow: wrap;
 justify-content: space-evenly;
@@ -119,9 +127,8 @@ list-style: none;
 gap: 10px;
 }
 
+/*parent child relationship with the to do list child boxes sit inside the parent box*/
 .parent {
-/*text-align: center;
-justify-content: center;*/
 display: flex;
 flex-wrap: wrap;
 border: 1px solid #3E3E3E;
@@ -130,6 +137,7 @@ background-color: #ffffff;
 
 .child1 {
 flex: 1;
+/*defines the dimensions for the to do list*/
 min-width: 200px;
 background-color: #ffffff;
 padding: 15px 30px;
