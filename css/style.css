@@ -162,16 +162,7 @@ background-color: #ffffff;
 padding: 15px 20px;
 box-sizing: border-box;
 border: 1px solid #3E3E3E;
-}
-
-@media (max-width: 768px) {
-.parent {
-flex-direction: column;
-}
-.child1,
-.child2 {
-width: 100%;
-}
+flex: 1 1 300px;
 }
 
 /**/
