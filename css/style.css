@@ -120,6 +120,7 @@ nav ul {
 display: flex;
 flex-flow: wrap;
 justify-content: space-evenly;
+justify-content: center;
 list-style: none;
 gap: 10px;
 }
