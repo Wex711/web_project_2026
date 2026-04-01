@@ -83,7 +83,7 @@ border: 1px solid #3E3E3E;
 table {
 background-color:#E14B3B;
 margin: 1rem auto;
-width: 80%;
+width: 150%;
 border-collapse: separate;
 border-spacing: 0;
 }
@@ -173,6 +173,6 @@ border: 1px solid #3E3E3E;
 
 /*enveloping "kanto pokedex" text into the white box above the table*/
 .dextable {
-background-color: transparent;
-border: none;
+background-color: #ffffff;
+border: 1px solid #3E3E3E
 }
