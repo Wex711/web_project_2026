@@ -156,12 +156,3 @@ padding: 15px 30px;
 box-sizing:border-box;
 border: 1px solid #3E3E3E;
 }
-
-.tablemobile {
-overflow-x: auto;      
-display: flex;
-justify-content: center; 
-min-width: 600px
-background-color: #ffffff;
-border: 1px solid #3E3E3E;
-}
