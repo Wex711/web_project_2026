@@ -63,6 +63,10 @@ width: fit-content;
 margin: 1rem auto;
 }
 
+article {
+border: none
+}
+
 /*Table Elements*/
 tr {
 background-color: #ffffff;
