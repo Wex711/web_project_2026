@@ -124,7 +124,7 @@ list-style: none;
 gap: 10px;
 
 
-padding: auto auto;
+padding: 1rem 30px;
 }
 
 /*parent child relationship with the to do list child boxes sit inside the parent box*/
