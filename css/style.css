@@ -81,7 +81,6 @@ border: 1px solid #3E3E3E;
 
 /*setting up table so that it doesn't take up too much space, and is scrollable on mobile*/
 table {
-background-color:#E14B3B;
 margin: 1rem auto;
 width: 100%;
 border-collapse: collapse;
