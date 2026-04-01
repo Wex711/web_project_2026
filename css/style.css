@@ -155,26 +155,23 @@ border: 1px solid #3E3E3E;
 background-color: #ffffff;
 }
 
-/*child box*/
-.child1 {
-flex: 1;
-
-/*defines the dimensions for the to do list*/
-min-width: 200px;
+.child1, .child2 {
+flex: 1 1 300px;
+min-width: 0;
 background-color: #ffffff;
-padding: 15px 30px;
-box-sizing:border-box;
+padding: 15px 20px;
+box-sizing: border-box;
 border: 1px solid #3E3E3E;
 }
 
-/*child box 2*/
+@media (max-width: 768px) {
+.parent {
+flex-direction: column;
+}
+.child1,
 .child2 {
-flex: 1;
-min-width: 200px;
-background-color: #ffffff;
-padding: 15px 30px;
-box-sizing:border-box;
-border: 1px solid #3E3E3E;
+width: 100%;
+}
 }
 
 /**/
