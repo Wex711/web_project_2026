@@ -77,6 +77,7 @@ border: 1px solid #3E3E3E;
 th {
 background-color: #ffffff;
 border: 1px solid #3E3E3E;
+border-top: none;
 }
 
 /*setting up table so that it doesn't take up too much space, and is scrollable on mobile*/
@@ -97,6 +98,7 @@ height: auto;
 .tablemobile {
 overflow-x: auto;
 -webkit-overflow-scrolling: touch;
+border: none;
 }
 
 /*Other Elements*/
