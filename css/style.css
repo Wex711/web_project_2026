@@ -122,6 +122,9 @@ flex-flow: wrap;
 justify-content: space-evenly;
 list-style: none;
 gap: 10px;
+
+
+padding: auto auto;
 }
 
 /*parent child relationship with the to do list child boxes sit inside the parent box*/
