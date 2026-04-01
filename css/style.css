@@ -39,6 +39,7 @@ border: 1px solid #3E3E3E;
 /*Making it so the top tab stays on screen*/
 position: sticky;
 top: 0;
+justify-content: center;
 }
 
 section {
@@ -120,7 +121,6 @@ nav ul {
 display: flex;
 flex-flow: wrap;
 justify-content: space-evenly;
-justify-content: center;
 list-style: none;
 gap: 10px;
 }
