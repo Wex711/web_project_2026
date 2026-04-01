@@ -156,7 +156,6 @@ background-color: #ffffff;
 }
 
 .child1, .child2 {
-flex: 1 1 300px;
 min-width: 0;
 background-color: #ffffff;
 padding: 15px 20px;
