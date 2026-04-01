@@ -200,5 +200,4 @@ transition: transform 0.2s ease, background-color 0.2s ease;
 /*HOVER EFFECT*/
 tr:hover {
 transform: scale(1.05);
-background-color: #fff8c5;
 }
