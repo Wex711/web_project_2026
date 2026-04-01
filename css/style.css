@@ -103,7 +103,6 @@ height: auto;
 /*keeps the table from overflowing on mobile screens*/
 .tablemobile {
 overflow-x: auto;
--webkit-overflow-scrolling: touch;
 border: none;
 }
 
@@ -144,7 +143,7 @@ flex-flow: wrap;
 justify-content: space-evenly;
 list-style: none;
 gap: 10px;
-padding: 3px auto;
+padding: 3px 3px;
 }
 
 /*parent child relationship with the to do list child boxes sit inside the parent box*/
