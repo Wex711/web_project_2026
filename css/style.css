@@ -41,6 +41,7 @@ position: sticky;
 top: 0;
 }
 
+
 section {
 background-color: #ffffff;
 border: 1px solid #706F6B;
@@ -52,6 +53,8 @@ header {
 background-color: #C22828;
 width: fit-content;
 margin: 1rem auto;
+position: sticky;
+top: 0;
 }
 
 footer {
@@ -61,10 +64,6 @@ margin: 1rem 0rem;
 padding: 0.5rem 1rem;
 width: fit-content;
 margin: 1rem auto;
-}
-
-article {
-border: none
 }
 
 /*Table Elements*/
@@ -108,11 +107,10 @@ border: none;
 
 /*Other Elements*/
 p a {
-/*makes it so that hyperlinks are gray and not underlined*/
+color: #706F6B;
 text-decoration: none;
 background-color: #ffffff;
 border: 1px solid #706F6B
-color: #706F6B
 }
 
 a {
