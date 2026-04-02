@@ -1,12 +1,12 @@
 /*Basic Elements*/
 html {
 background-color:#C22828;
-background:linear-gradient(to right,#686963 0%,#C22828 4%,#C22828 96%,#686963 100%);
-}
+background:linear-gradient(to right,#706F6B 0%,#C22828 4%,#C22828 96%,#706F6B 100%);
+} 
 /*defines line height for the whole webpage,sets max width text can stretch to. margin 1rem auto centers the text and establishes padding.*/
 body {
 background-color:#C22828;
-color: #686963;
+color: #706F6B;
 text-align: center;
 font-family: "Roboto Mono", Arial, sans-serif;
 line-height: 1.5;
@@ -20,7 +20,7 @@ background-color:#C22828;
 
 h1 {
 background-color: #ffffff;
-border: 1px solid #686963;
+border: 1px solid #706F6B;
 /*Makes the text stick to the box*/
 width: fit-content;
 margin: 1rem auto;
@@ -28,14 +28,14 @@ margin: 1rem auto;
 
 h2, h3, h4 {
 background-color: #ffffff;
-border: 1px solid #686963;
+border: 1px solid #706F6B;
 width: fit-content;
 margin: 1rem auto;
 }
 
 nav {
 background-color: #ffffff;
-border: 1px solid #686963;
+border: 1px solid #706F6B;
 /*Making it so the top tab stays on screen*/
 position: sticky;
 top: 0;
@@ -43,7 +43,7 @@ top: 0;
 
 section {
 background-color: #ffffff;
-border: 1px solid #686963;
+border: 1px solid #706F6B;
 padding: 15px 30px;
 margin: 1rem 0rem;
 }
@@ -56,7 +56,7 @@ margin: 1rem auto;
 
 footer {
 background-color: #ffffff;
-border: 1px solid #686963;
+border: 1px solid #706F6B;
 margin: 1rem 0rem;
 padding: 0.5rem 1rem;
 width: fit-content;
@@ -70,18 +70,18 @@ border: none
 /*Table Elements*/
 tr {
 background-color: #ffffff;
-border: 1px solid #686963;
+border: 1px solid #706F6B;
 
 }
 
 td {
 background-color: #ffffff;
-border: 1px solid #686963;
+border: 1px solid #706F6B;
 }
 
 th {
 background-color: #ffffff;
-border: 1px solid #686963;
+border: 1px solid #706F6B;
 border-top: none;
 }
 
@@ -111,14 +111,14 @@ p a {
 /*makes it so that hyperlinks are gray and not underlined*/
 text-decoration: none;
 background-color: #ffffff;
-border: 1px solid #686963;
-color: #686963;
+border: 1px solid #706F6B
+color: #706F6B
 }
 
 a {
 /*making sure other hyperlinks arent underlined*/
 text-decoration: none;
-color: #686963;
+color: #706F6B;
 }
 
 img {
@@ -132,7 +132,7 @@ display:flex;
 gap: 30px;
 flex-wrap: wrap;
 background-color:#ffffff;
-border: 1px solid #686963;
+border: 1px solid #706F6B;
 justify-content: center;
 }
 
@@ -150,7 +150,7 @@ padding: 3px 3px;
 .parent {
 display: flex;
 flex-wrap: wrap;
-border: 1px solid #686963;
+border: 1px solid #706F6B;
 background-color: #ffffff;
 }
 
@@ -166,7 +166,7 @@ flex: 1 1 300px;
 /**/
 .dextable {
 background-color: #ffffff;
-border: 1px solid #686963;
+border: 1px solid #706F6B;
 max-width: 1000px;
 margin-left: auto;
 margin-right: auto;
