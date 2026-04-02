@@ -152,12 +152,6 @@ background-color: #ffffff;
 justify-content: center;
 }
 
-.todotitle {
-width: 100%
-text-align: center
-margin 20px 0 10px 0;
-}
-
 .child1, .child2 {
 min-width: 0;
 background-color: #ffffff;
@@ -165,6 +159,16 @@ padding: 15px 20px;
 box-sizing: border-box;
 border: none;
 flex: 1 1 300px;
+}
+
+.todo {
+background-color: #ffffff;
+border: 1px solid #706F6B;
+}
+
+.todo h2 {
+text-align: center;
+margin: 20px 0;
 }
 
 /**/
