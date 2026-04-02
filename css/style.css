@@ -36,9 +36,6 @@ margin: 1rem auto;
 nav {
 background-color: #ffffff;
 border: 1px solid #706F6B;
-/*Making it so the top tab stays on screen*/
-position: sticky;
-top: 0;
 }
 
 
@@ -179,4 +176,8 @@ transition: transform 0s ease, background-color 0s ease;
 /*HOVER EFFECT*/
 tr:hover {
 transform: scale(1.05);
+}
+.topbox {
+position: sticky;
+top: 0;
 }
