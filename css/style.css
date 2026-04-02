@@ -174,10 +174,12 @@ tr {
 transition: transform 0s ease, background-color 0s ease;
 }
 /*HOVER EFFECT*/
-tr:hover {
+tr:not(:first-child):hover {
 transform: scale(1.05);
 box-shadow: 0 0 12px rgba(255, 0, 0, 0.6); /* red glow (fits your theme) */
 }
+
+
 
 .topbox {
 position: sticky;
