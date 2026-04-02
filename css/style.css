@@ -38,7 +38,7 @@ background-color: #ffffff;
 border: 1px solid #706F6B;
 /*Making it so the top tab stays on screen*/
 position: sticky;
-top: 0;
+top: 50;
 }
 
 
