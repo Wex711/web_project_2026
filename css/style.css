@@ -150,6 +150,7 @@ flex-wrap: wrap;
 background-color: #ffffff;
 border: none;
 justify-content: center;
+text-align: center;
 }
 
 .child1, .child2 {
@@ -159,7 +160,11 @@ padding: 15px 20px;
 box-sizing: border-box;
 border: none;
 flex: 1 1 300px;
-justify-content: center;
+text-align: center;
+}
+
+.child1 h2, .child2 h2 {
+text-align: center;
 }
 
 .todo {
