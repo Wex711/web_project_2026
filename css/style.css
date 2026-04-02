@@ -38,7 +38,7 @@ background-color: #ffffff;
 border: 1px solid #706F6B;
 /*Making it so the top tab stays on screen*/
 position: sticky;
-top: 50;
+top: 0;
 }
 
 
@@ -53,8 +53,6 @@ header {
 background-color: #C22828;
 width: fit-content;
 margin: 1rem auto;
-position: sticky;
-top: 0;
 }
 
 footer {
