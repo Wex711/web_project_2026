@@ -167,6 +167,7 @@ border: 1px solid #706F6B;
 max-width: 1000px;
 margin-left: auto;
 margin-right: auto;
+margin: 1rem auto;
 }
 
 .noborder {
