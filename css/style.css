@@ -147,7 +147,6 @@ padding: 3px 3px;
 .parent {
 display: flex;
 flex-wrap: wrap;
-border: 1px solid #706F6B;
 background-color: #ffffff;
 justify-content: center;
 }
