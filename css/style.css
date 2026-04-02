@@ -148,6 +148,7 @@ padding: 3px 3px;
 display: flex;
 flex-wrap: wrap;
 background-color: #ffffff;
+border: none;
 justify-content: center;
 }
 
