@@ -158,16 +158,19 @@ padding: 15px 20px;
 box-sizing: border-box;
 border: none;
 flex: 1 1 300px;
+justify-content: center;
 }
 
 .todo {
 background-color: #ffffff;
 border: 1px solid #706F6B;
+justify-content: center;
 }
 
 .todo h2 {
 text-align: center;
 margin: 20px 0;
+justify-content: center;
 }
 
 /**/
