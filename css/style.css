@@ -174,9 +174,9 @@ tr {
 transition: transform 0s ease, background-color 0s ease;
 }
 /*HOVER EFFECT*/
-table tr:not(:first-of-type):hover td {
+table tr:not(:first-of-type):hover {
 transform: scale(1.05);
-box-shadow: 0 0 12px rgba(37, 150, 190); 
+box-shadow: 0 0 12px rgb(251, 248, 217); 
 }
 
 .topbox {
