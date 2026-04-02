@@ -180,4 +180,5 @@ transform: scale(1.05);
 .topbox {
 position: sticky;
 top: 0;
+background-color: #C22828;
 }
