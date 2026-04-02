@@ -151,6 +151,7 @@ flex-wrap: wrap;
 justify-content: center;   
 gap: 30px;
 background-color: #ffffff;
+border: none;
 }
 
 .child1, .child2 {
@@ -177,7 +178,7 @@ padding: 20px;
 box-sizing: border-box;
 }
 
-.todo h2 {
+.todo > h2 {
 text-align: center;        
 margin-bottom: 25px;
 }
