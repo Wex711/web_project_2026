@@ -1,12 +1,12 @@
 /*Basic Elements*/
 html {
 background-color:#DB5461;
-background:linear-gradient(to right,#3E3E3E 0%,#db5461 4%,#db5461 96%,#3E3E3E 100%);
+background:linear-gradient(to right,#686963 0%,#db5461 4%,#db5461 96%,#686963 100%);
 }
 /*defines line height for the whole webpage,sets max width text can stretch to. margin 1rem auto centers the text and establishes padding.*/
 body {
 background-color:#db5461;
-color: #3E3E3E;
+color: #686963;
 text-align: center;
 font-family: "Roboto Mono", Arial, sans-serif;
 line-height: 1.5;
@@ -20,7 +20,7 @@ background-color:#db5461;
 
 h1 {
 background-color: #ffffff;
-border: 1px solid #3E3E3E;
+border: 1px solid #686963;
 /*Makes the text stick to the box*/
 width: fit-content;
 margin: 1rem auto;
@@ -28,14 +28,14 @@ margin: 1rem auto;
 
 h2, h3, h4 {
 background-color: #ffffff;
-border: 1px solid #3E3E3E;
+border: 1px solid #686963;
 width: fit-content;
 margin: 1rem auto;
 }
 
 nav {
 background-color: #ffffff;
-border: 1px solid #3E3E3E;
+border: 1px solid #686963;
 /*Making it so the top tab stays on screen*/
 position: sticky;
 top: 0;
@@ -43,7 +43,7 @@ top: 0;
 
 section {
 background-color: #ffffff;
-border: 1px solid #3E3E3E;
+border: 1px solid #686963;
 padding: 15px 30px;
 margin: 1rem 0rem;
 }
@@ -56,7 +56,7 @@ margin: 1rem auto;
 
 footer {
 background-color: #ffffff;
-border: 1px solid #3E3E3E;
+border: 1px solid #686963;
 margin: 1rem 0rem;
 padding: 0.5rem 1rem;
 width: fit-content;
@@ -70,18 +70,18 @@ border: none
 /*Table Elements*/
 tr {
 background-color: #ffffff;
-border: 1px solid #3E3E3E;
+border: 1px solid #686963;
 
 }
 
 td {
 background-color: #ffffff;
-border: 1px solid #3E3E3E;
+border: 1px solid #686963;
 }
 
 th {
 background-color: #ffffff;
-border: 1px solid #3E3E3E;
+border: 1px solid #686963;
 border-top: none;
 }
 
@@ -111,14 +111,14 @@ p a {
 /*makes it so that hyperlinks are gray and not underlined*/
 text-decoration: none;
 background-color: #ffffff;
-border: 1px solid #3E3E3E;
-color: #3E3E3E;
+border: 1px solid #686963;
+color: #686963;
 }
 
 a {
 /*making sure other hyperlinks arent underlined*/
 text-decoration: none;
-color: #3E3E3E;
+color: #686963;
 }
 
 img {
@@ -132,7 +132,7 @@ display:flex;
 gap: 30px;
 flex-wrap: wrap;
 background-color:#ffffff;
-border: 1px solid #3E3E3E;
+border: 1px solid #686963;
 justify-content: center;
 }
 
@@ -150,7 +150,7 @@ padding: 3px 3px;
 .parent {
 display: flex;
 flex-wrap: wrap;
-border: 1px solid #3E3E3E;
+border: 1px solid #686963;
 background-color: #ffffff;
 }
 
@@ -166,7 +166,7 @@ flex: 1 1 300px;
 /**/
 .dextable {
 background-color: #ffffff;
-border: 1px solid #3E3E3E;
+border: 1px solid #686963;
 max-width: 1000px;
 margin-left: auto;
 margin-right: auto;
