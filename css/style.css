@@ -1,11 +1,11 @@
 /*Basic Elements*/
 html {
-background-color:#DB5461;
-background:linear-gradient(to right,#686963 0%,#db5461 4%,#db5461 96%,#686963 100%);
+background-color:#C22828;
+background:linear-gradient(to right,#686963 0%,#C22828 4%,#C22828 96%,#686963 100%);
 }
 /*defines line height for the whole webpage,sets max width text can stretch to. margin 1rem auto centers the text and establishes padding.*/
 body {
-background-color:#db5461;
+background-color:#C22828;
 color: #686963;
 text-align: center;
 font-family: "Roboto Mono", Arial, sans-serif;
@@ -15,7 +15,7 @@ margin: 1rem auto;
 }
 
 main {
-background-color:#db5461;
+background-color:#C22828;
 }
 
 h1 {
@@ -49,7 +49,7 @@ margin: 1rem 0rem;
 }
 
 header {
-background-color: #db5461;
+background-color: #C22828;
 width: fit-content;
 margin: 1rem auto;
 }
@@ -87,7 +87,7 @@ border-top: none;
 
 /*setting up table so that it doesn't take up too much space, and is scrollable on mobile*/
 table {
-background-color:#db5461;
+background-color:#C22828;
 margin: 1rem auto;
 width: 100%;
 border-collapse: separate;
