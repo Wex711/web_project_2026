@@ -149,6 +149,11 @@ display: flex;
 flex-wrap: wrap;
 border: 1px solid #706F6B;
 background-color: #ffffff;
+justify-content: center;
+}
+
+.todotitle {
+text-align: center
 }
 
 .child1, .child2 {
@@ -175,10 +180,10 @@ border: none;
 background-color: transparent;
 }
 
+/*HOVER EFFECT*/
 tr {
 transition: transform 0s ease, background-color 0s ease;
 }
-/*HOVER EFFECT*/
 tbody tr:hover {
 transform: scale(1.05);
 box-shadow: 0 0 12px rgb(255, 255, 255); 
