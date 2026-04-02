@@ -14,7 +14,7 @@ margin: 1rem auto;
 }
 
 p{
-color:#706F6B;
+color:#706F6B
 }
 
 main {
@@ -107,7 +107,7 @@ border: none;
 
 /*Other Elements*/
 p a {
-color: #706F6B;
+color: #000000;
 text-decoration: none;
 background-color: #ffffff;
 border: 1px solid #706F6B
@@ -116,7 +116,7 @@ border: 1px solid #706F6B
 a {
 /*making sure other hyperlinks arent underlined*/
 text-decoration: none;
-color: #706F6B;
+color: #000000;
 }
 
 img {
