@@ -6,12 +6,15 @@ background:linear-gradient(to right,#706F6B 0%,#C22828 4%,#C22828 96%,#706F6B 10
 /*defines line height for the whole webpage,sets max width text can stretch to. margin 1rem auto centers the text and establishes padding.*/
 body {
 background-color:#C22828;
-color: #706F6B;
 text-align: center;
 font-family: "Roboto Mono", Arial, sans-serif;
 line-height: 1.5;
 max-width: 1000px;
 margin: 1rem auto;
+}
+
+p{
+color:#706F6B;
 }
 
 main {
@@ -24,6 +27,7 @@ border: 1px solid #706F6B;
 /*Makes the text stick to the box*/
 width: fit-content;
 margin: 1rem auto;
+color:black;
 }
 
 h2, h3, h4 {
@@ -31,6 +35,7 @@ background-color: #ffffff;
 border: 1px solid #706F6B;
 width: fit-content;
 margin: 1rem auto;
+color:black;
 }
 
 nav {
