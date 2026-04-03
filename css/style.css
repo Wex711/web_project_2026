@@ -3,6 +3,7 @@ html {
 background-color:#d94a3a;
 background:linear-gradient(to right,#706F6B 0%,#d94a3a 4%,#d94a3a 96%,#706F6B 100%);
 } 
+
 /*defines line height for the whole webpage,sets max width text can stretch to. margin 1rem auto centers the text and establishes padding.*/
 body {
 background-color:#d94a3a;
