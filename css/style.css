@@ -1,11 +1,11 @@
 /*Basic Elements*/
 html {
-background-color:#C22828;
-background:linear-gradient(to right,#706F6B 0%,#C22828 4%,#C22828 96%,#706F6B 100%);
+background-color:#d94a3a;
+background:linear-gradient(to right,#706F6B 0%,#d94a3a 4%,#d94a3a 96%,#706F6B 100%);
 } 
 /*defines line height for the whole webpage,sets max width text can stretch to. margin 1rem auto centers the text and establishes padding.*/
 body {
-background-color:#C22828;
+background-color:#d94a3a;
 text-align: center;
 font-family: "Roboto Mono", Arial, sans-serif;
 line-height: 1.5;
@@ -14,11 +14,11 @@ margin: 1rem auto;
 }
 
 p{
-color:#706F6B
+color:#1f1f1f
 }
 
 main {
-background-color:#C22828;
+background-color:#d94a3a;
 }
 
 h1 {
@@ -27,7 +27,7 @@ border: 1px solid #706F6B;
 /*Makes the text stick to the box*/
 width: fit-content;
 margin: 1rem auto;
-color:black;
+color:1f1f1f;
 }
 
 h2, h3, h4 {
@@ -35,7 +35,7 @@ background-color: #ffffff;
 border: 1px solid #706F6B;
 width: fit-content;
 margin: 1rem auto;
-color:black;
+color:1f1f1f;
 }
 
 nav {
@@ -52,7 +52,7 @@ margin: 1rem 0rem;
 }
 
 header {
-background-color: #C22828;
+background-color: #d94a3a;
 width: fit-content;
 margin: 1rem auto;
 }
@@ -86,7 +86,7 @@ border-top: none;
 
 /*setting up table so that it doesn't take up too much space, and is scrollable on mobile*/
 table {
-background-color:#C22828;
+background-color:#d94a3a;
 margin: 1rem auto;
 width: 100%;
 border-collapse: separate;
@@ -107,7 +107,7 @@ border: none;
 
 /*Other Elements*/
 p a {
-color: #000000;
+color: #1f1f1f;
 text-decoration: none;
 background-color: #ffffff;
 }
@@ -115,7 +115,7 @@ background-color: #ffffff;
 a {
 /*making sure other hyperlinks arent underlined*/
 text-decoration: none;
-color: #000000;
+color: #1f1f1f;
 }
 
 img {
@@ -212,6 +212,14 @@ box-shadow: 0 0 12px rgb(255, 255, 255);
 .topbox {
 position: sticky;
 top: 0;
-background-color: #C22828;
+background-color: #d94a3a;
 z-index: 1000;
 }
+
+/*
+POKEDEX COLORS
+Background - d94a3a
+Border - 706f6b
+Text - 1f1f1f
+Text Background - ffffff
+*/
