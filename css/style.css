@@ -93,6 +93,9 @@ width: 100%;
 border-collapse: separate;
 border-spacing: 0;
 border-top: 1px solid;
+/*NEW CODE*/
+transform: scale(0.95);
+transform-origin: top center;
 }
 
 table img {
