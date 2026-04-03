@@ -215,6 +215,12 @@ background-color: #d94a3a;
 z-index: 1000;
 }
 
+.typelist {
+background-color: #ffffff;
+border: 1px solid #706F6B
+}
+
+
 /*
 POKEDEX COLORS
 Background - d94a3a
