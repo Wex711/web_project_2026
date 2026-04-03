@@ -89,13 +89,10 @@ border-top: none;
 table {
 background-color:#d94a3a;
 margin: 1rem auto;
-width: 100%;
+width: 90%;
 border-collapse: separate;
 border-spacing: 0;
 border-top: 1px solid;
-/*NEW CODE*/
-transform: scale(0.95);
-transform-origin: top center;
 }
 
 table img {
