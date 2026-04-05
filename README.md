@@ -3,6 +3,6 @@
 This is a web-based encyclopedia project for Section 201 of ICT420 during the Spring 2026 Semester.
 
 ## How to run
-Open `index.html` in a web browser or serve it with XAMPP, or open https://wex711.github.io/web_project_2026/index.html.
+Open https://wex711.github.io/web_project_2026/index.html.
 
 
