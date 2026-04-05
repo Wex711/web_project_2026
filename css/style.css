@@ -239,6 +239,9 @@ background-color: #ffffff;
 border: 1px solid #706F6B
 }
 
+nav ul a:hover {
+    background-color: #888888;
+}
 
 /*
 POKEDEX COLORS
