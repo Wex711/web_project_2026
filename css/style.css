@@ -241,7 +241,7 @@ border: 1px solid #706F6B
 
 /*Making it so that the links turn light grey when hovered over*/
 nav ul a:hover {
-    background-color: #888888;
+    background-color: #e5e5e5;
 }
 
 /*
