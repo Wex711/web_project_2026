@@ -56,9 +56,8 @@ background-color: #ffffff;
 border: 1px solid #706F6B;
 padding: 15px 30px;
 margin: 1rem 0;
-/*border-radius curves the edges of all of my section elements, making the
-webpage look far more presentable.*/
 border-radius: 12px;
+box-shadow: 0 6px 16px rgba(0,0,0,0.08);
 }
 
 header {
