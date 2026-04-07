@@ -32,7 +32,8 @@ color: #1f1f1f;
 background-color: #ffffff;
 border: 1px solid #706F6B;
 width: fit-content;
-padding: 10px 10px;
+border-radius: 12px;
+padding: 12px 12px;
 margin: 1rem auto
 }
 
