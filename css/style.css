@@ -1,250 +1,247 @@
-/*Basic Elements*/
 /*Defines basic background color and gradient*/
 html {
-background-color:#c75b52;
-background:linear-gradient(to right,#706F6B 0%,#c75b52 4%,#c75b52 96%,#706F6B 100%);
+    background-color:#c75b52;
+    background:linear-gradient(to right,#706F6B 0%,#c75b52 4%,#c75b52 96%,#706F6B 100%);
 } 
 
 /*defines line height for the whole webpage,sets max width text can stretch to. margin 1rem auto centers the text and establishes padding.
 Poppins is a font brought in from google fonts.*/
 body {
-background-color:#c75b52;
-text-align: center;
-font-family: "Poppins", Arial, sans-serif;
-line-height: 1.5;
-max-width: 1000px;
-margin: 1rem auto;
+    background-color:#c75b52;
+    text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 1.5;
+    max-width: 1000px;
+    margin: 1rem auto;
 }
 
+/*aligning text for most paragraphs to be to the left and assigning a color*/
 p{
-text-align: left;
-color:#1f1f1f
+    text-align: left;
+    color:#1f1f1f
 }
 
+/*setting the background color for main*/
 main {
-background-color:#c75b52;
+    background-color:#c75b52;
 }
 
-/*Code for "virtual pokedex" at top of page, establishes border and
-spacing for said border*/
+/*Code for "virtual pokedex" at top of page, establishes border and spacing for said border. width fit-content makes it so the text fits in
+its container, border radius adds curves to the border, padding adds space inside the box, and margin establishes space from other elements.
+auto on the margin centers it in the middle of the page. */
 h1 {
-color: #1f1f1f;
-background-color: #ffffff;
-border: 1px solid #706F6B;
-width: fit-content;
-border-radius: 12px;
-padding: 12px 12px;
-margin: 1rem auto
+    color: #1f1f1f;
+    background-color: #ffffff;
+    border: 1px solid #706F6B;  
+    width: fit-content;
+    border-radius: 12px;
+    padding: 12px 12px;
+    margin: 1rem auto
 }
 
-
+/*self explanatory*/
 h2, h3, h4 {
-background-color: #ffffff;
-width: fit-content;
-margin: 1rem auto;
-color: #1f1f1f;
+    background-color: #ffffff;
+    width: fit-content;
+    margin: 1rem auto;
+    color: #1f1f1f;
 }
 
+/*self explanatory*/
 nav {
-background-color: #ffffff;
-border: 1px solid #706F6B;
+    background-color: #ffffff;
+    border: 1px solid #706F6B;
 }
 
-
+/*setting the color and dimensions for section elements across the page.*/
 section {
-background-color: #ffffff;
-border: 1px solid #706F6B;
-padding: 15px 30px;
-margin: 1rem 0;
-border-radius: 12px;
+    background-color: #ffffff;
+    border: 1px solid #706F6B;
+    padding: 15px 30px;
+    margin: 1rem 0;
+    border-radius: 12px;
 }
 
+/*self explanatory*/
 header {
-background-color: #c75b52;
-width: fit-content;
-margin: 1rem auto;
+    background-color: #c75b52;
+    width: fit-content;
+    margin: 1rem auto;
 }
 
+/*self explanatory*/
 footer {
-background-color: #ffffff;
-border: 1px solid #706F6B;
-padding: 0.5rem 1rem;
-margin: 1rem auto;
-width: fit-content;
+    background-color: #ffffff;
+    border: 1px solid #706F6B;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+    width: fit-content;
 }
 
 /*Table Elements*/
 tr {
-background-color: #ffffff;
-border: 1px solid #706F6B;
-/*this line of code defines behavior for when rows are hovered over,
-which is used later in the code to establish some features.*/
-transition: transform 0.1s ease, background-color 0.1s ease;
+    background-color: #ffffff;
+    border: 1px solid #706F6B;
+/*this line of code defines behavior for when rows are hovered over, which is used later in the code to establish some features.*/
+    transition: transform 0.1s ease, background-color 0.1s ease;
 }
 
+/*self explanatory*/
 td {
-background-color: #ffffff;
-border: 1px solid #706F6B;
+    background-color: #ffffff;
+    border: 1px solid #706F6B;
 }
 
 th {
-background-color: #ffffff;
-border: 1px solid #706F6B;
-/*No border on top as to keep display clean. Having a border on top
-would add a line between the text and table, so I manually removed it.*/
-border-top: none;
+    background-color: #ffffff;
+    border: 1px solid #706F6B;
+/*No border on top as to keep display clean. Having a border on top would add a line between the text and table, so I manually removed it.*/
+    border-top: none;
 }
 
 /*setting up table so that it doesn't take up too much space, and is scrollable on mobile*/
 table {
-background-color:#c75b52;
-margin: 1rem auto;
-/*width at 95 percent so that when the text hover effect goes into 
-action, the table row doesn't get blocked off by the edge of the border.*/
-width: 95%;
-/*making it so every table cell is its own block, but remains tightly
-knit with the rest of the elements.*/
-border-collapse: separate;
-border-spacing: 0;
-border-top: 1px solid;
+    background-color:#c75b52;
+    margin: 1rem auto;
+/*width at 95 percent so that when the text hover effect goes into action, the table row doesn't get blocked off by the edge of the border.*/
+    width: 95%;
+/*making it so every table cell is its own block, but remains tightly knit with the rest of the elements.*/
+    border-collapse: separate;
+    border-spacing: 0;
+    border-top: 1px solid;
 }
 
 /*establishing sizes for images*/
 table img {
-max-width: 80px;
-height: auto;
+    max-width: 80px;
+    height: auto;
 }
 
 /*keeps the table from overflowing on mobile screens*/
 .tablemobile {
-overflow-x: auto;
-border: none;
+    overflow-x: auto;
+    border: none;
 }
 
 /*Other Elements*/
 p a {
-background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 a {
 /*making sure hyperlinks arent underlined*/
-text-decoration: none;
-color: #1f1f1f;
+    text-decoration: none;
+    color: #1f1f1f;
 }
 
+/*setting image settings for all of the pages*/
 img {
-max-width: 100%;
-height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 ol {
 /*turning ordered lists into flexbox assets, making them wrap around the box and center*/
-display:flex;
-gap: 30px;
-flex-wrap: wrap;
-background-color:#ffffff;
-justify-content: center;
+    display:flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    background-color:#ffffff;
+    justify-content: center;
 }
 
 nav ul {
 /*turning unordered list into flexbox assets*/
-display: flex;
-flex-flow: wrap;
-justify-content: space-evenly;
-list-style: none;
-gap: 10px;
-padding: 5px 5px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 10px;
+    padding: 5px 5px;
 }
 
-/*parent child relationship with the source boxes inside the parent box.
-Both of these are inside of a third container which contains the "sources"
-text.
-*/
-
+/*parent child relationship with the source boxes inside the parent box.Both of these are inside of a third container which contains the 
+"sources" text.*/
 .parent {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;   
-gap: 30px;
-background-color: #ffffff;
-border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    gap: 30px;
+    background-color: #ffffff;
+    border: none;
 }
 
 .child1, .child2 {
-flex: 1 1 300px;
-padding: 25px 20px;
-box-sizing: border-box;
-background-color: #ffffff;
-display: flex;            
-flex-direction: column;
-border: none; 
+    flex: 1 1 300px;
+    padding: 25px 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: flex;            
+    flex-direction: column;
+    border: none; 
 }
 
 .child1 h2, .child2 h2 {
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .child1 p, .child2 p {
-text-align: center;
+    text-align: center;
 
 }
 /*containers for the sources text.*/
 .todo {
-background-color: #ffffff;
-border: 1px solid #706F6B;
-max-width: 1000px;
-margin: 20px auto;      
-padding: 20px;
-box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #706F6B;
+    max-width: 1000px;
+    margin: 20px auto;      
+    padding: 20px;  
+    box-sizing: border-box;
 }
 
 .todo > h2 {
-text-align: center;        
-margin-bottom: 25px;
+    text-align: center;        
+    margin-bottom: 25px;
 }
 
 /*A container for my pokedex table, I am using this to space out
 the text I have above the table from the table itself.*/
 .dextable {
-background-color: #ffffff;
-border: 1px solid #706F6B;
-max-width: 1000px;
-margin: 1rem auto;
+    background-color: #ffffff;
+    border: 1px solid #706F6B;
+    max-width: 1000px;
+    margin: 1rem auto;
 }
 
 /*Added this so I can insert it where I want borders removed.*/
 .noborder {
-border: none;
-background-color: transparent;
+    border: none;
+    background-color: transparent;
 }
 
 .dextable .noborder {
     text-align: left;
-    margin: 1rem 0;
+    margin: 1rem 0; 
 }
 
 /*HOVER EFFECT*/
 tbody tr:hover {
-transform: scale(1.05);
-box-shadow: 0 0 12px rgb(255, 255, 255); 
+    transform: scale(1.05); 
 }
 
-/*making it so that the virtual pokedex and page list stay at the top of the
-page. The z index value is to prevent the audio files for pokemon cries
-being displayed above the sticky, as when I didn't have the assignment,
-they would be displayed over top of this section. The z index makes the sticky
-the highest priority thing on the page.*/
+/*making it so that the virtual pokedex and page list stay at the top of the page. The z index value is to prevent the audio files for 
+pokemon cries being displayed above the sticky, as when I didn't have the assignment, they would be displayed over top of this section. 
+The z index makes the sticky the highest priority thing on the page.*/
 .topbox {
-position: sticky;
-top: 0;
-background-color: #c75b52;
-z-index: 1000;
+    position: sticky;
+    top: 0;
+    background-color: #c75b52;
+    z-index: 1000;
 }
 
 /*nesting flexbox ol inside of this, this is simply a container.*/
 .typelist {
-background-color: #ffffff;
-border: 1px solid #706F6B
+    background-color: #ffffff;
+    border: 1px solid #706F6B
 }
 
 /*Making it so that the links turn light grey when hovered over*/
@@ -252,8 +249,9 @@ nav ul a:hover {
     background-color: #e5e5e5;
 }
 
+/*making it so the text in the bottom of the container is centered*/
 .bottomtext p {
-text-align: center;
+    text-align: center;
 }
 
 /*
