@@ -1,14 +1,14 @@
 /*Basic Elements*/
 /*Defines basic background color and gradient*/
 html {
-background-color:#d94a3a;
-background:linear-gradient(to right,#706F6B 0%,#d94a3a 4%,#d94a3a 96%,#706F6B 100%);
+background-color:#c75b52;
+background:linear-gradient(to right,#706F6B 0%,#c75b52 4%,#c75b52 96%,#706F6B 100%);
 } 
 
 /*defines line height for the whole webpage,sets max width text can stretch to. margin 1rem auto centers the text and establishes padding.
 Poppins is a font brought in from google fonts.*/
 body {
-background-color:#d94a3a;
+background-color:#c75b52;
 text-align: center;
 font-family: "Poppins", Arial, sans-serif;
 line-height: 1.5;
@@ -17,11 +17,12 @@ margin: 1rem auto;
 }
 
 p{
+text-align: left;
 color:#1f1f1f
 }
 
 main {
-background-color:#d94a3a;
+background-color:#c75b52;
 }
 
 /*Code for "virtual pokedex" at top of page, establishes border and
@@ -60,7 +61,7 @@ border-radius: 12px;
 }
 
 header {
-background-color: #d94a3a;
+background-color: #c75b52;
 width: fit-content;
 margin: 1rem auto;
 }
@@ -97,7 +98,7 @@ border-top: none;
 
 /*setting up table so that it doesn't take up too much space, and is scrollable on mobile*/
 table {
-background-color:#d94a3a;
+background-color:#c75b52;
 margin: 1rem auto;
 /*width at 95 percent so that when the text hover effect goes into 
 action, the table row doesn't get blocked off by the edge of the border.*/
@@ -229,7 +230,7 @@ the highest priority thing on the page.*/
 .topbox {
 position: sticky;
 top: 0;
-background-color: #d94a3a;
+background-color: #c75b52;
 z-index: 1000;
 }
 
@@ -246,7 +247,7 @@ nav ul a:hover {
 
 /*
 POKEDEX COLORS
-Background - d94a3a
+Background - c75b52
 Border - 706f6b
 Text - 1f1f1f
 Text Background - ffffff
