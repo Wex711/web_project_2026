@@ -178,7 +178,6 @@ box-sizing: border-box;
 background-color: #ffffff;
 display: flex;            
 flex-direction: column;
-text-align: center;     
 border: none; 
 }
 
@@ -186,6 +185,10 @@ border: none;
 margin-bottom: 10px;
 }
 
+.child1 p, .child2 p {
+text-align: center;
+
+}
 /*containers for the sources text.*/
 .todo {
 background-color: #ffffff;
