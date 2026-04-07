@@ -214,7 +214,10 @@ margin: 1rem auto;
 .noborder {
 border: none;
 background-color: transparent;
-text-align: left;
+}
+
+section .noborder {
+    text-align: left;
 }
 
 /*HOVER EFFECT*/
