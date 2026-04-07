@@ -216,8 +216,9 @@ border: none;
 background-color: transparent;
 }
 
-section .noborder {
+.dextable .noborder {
     text-align: left;
+    margin: 1rem 0;
 }
 
 /*HOVER EFFECT*/
