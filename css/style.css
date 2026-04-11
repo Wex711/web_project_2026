@@ -76,6 +76,7 @@ footer {
     padding: 0.5rem 1rem;
     margin: 1rem auto;
     width: fit-content;
+    border-radius: 12px;
 }
 
 /*Table Elements*/
