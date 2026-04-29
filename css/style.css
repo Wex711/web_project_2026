@@ -255,11 +255,6 @@ nav ul a:hover {
     text-align: center;
 }
 
-/*Making it so the padding for the notice is properly adjusted*/
-.notice {
-    padding: 12px 12px;
-}
-
 /*
 POKEDEX COLORS
 Background - c75b52
