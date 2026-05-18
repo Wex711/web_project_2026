@@ -207,7 +207,8 @@ nav ul {
 /*A container for my pokedex table, I am using this to space out
 the text I have above the table from the table itself.*/
 .dextable {
-    background-color: #ffffff;
+    background-image: url('../media/pokedexbackground.jpeg');
+    background-size: 100% 100%;
     border: 1px solid #706F6B;
     max-width: 1000px;
     margin: 1rem auto;
