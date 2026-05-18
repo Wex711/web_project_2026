@@ -207,8 +207,7 @@ nav ul {
 /*A container for my pokedex table, I am using this to space out
 the text I have above the table from the table itself.*/
 .dextable {
-    background-image: url('../media/pokedexbackground.jpeg');
-    background-size: 100% 100%;
+    background-color: #ffffff;
     border: 1px solid #706F6B;
     max-width: 1000px;
     margin: 1rem auto;
@@ -254,6 +253,10 @@ nav ul a:hover {
 /*making it so the text in the bottom of the container is centered*/
 .bottomtext p {
     text-align: center;
+}
+
+.regionlinks a:hover {
+    background-color: #e5e5e5;
 }
 
 /*
